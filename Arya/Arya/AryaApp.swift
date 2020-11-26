@@ -7,7 +7,6 @@
 
 import SwiftUI
 
-@main
 struct AryaApp: App {
     var body: some Scene {
         WindowGroup {
