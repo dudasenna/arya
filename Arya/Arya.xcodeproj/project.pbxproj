@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E6F5222256FE678007D519C /* FavoritedCommunitiesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6F5221256FE678007D519C /* FavoritedCommunitiesView.swift */; };
+		0E6F5227256FE6DB007D519C /* FavoritedCuriositiesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6F5226256FE6DB007D519C /* FavoritedCuriositiesView.swift */; };
+		0E6F522C256FE703007D519C /* FavoritedAreasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6F522B256FE703007D519C /* FavoritedAreasView.swift */; };
 		0EA9B008256F2E4200A1ABC5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA9B007256F2E4200A1ABC5 /* AppDelegate.swift */; };
 		0EA9B010256F2EAC00A1ABC5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA9B00F256F2EAC00A1ABC5 /* SceneDelegate.swift */; };
 		0EA9B01B256F333300A1ABC5 /* MyJourneysView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA9B01A256F333300A1ABC5 /* MyJourneysView.swift */; };
@@ -45,6 +48,9 @@
 /* Begin PBXFileReference section */
 		0569A96CC19B3612D67E105E /* Pods-AryaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AryaTests.debug.xcconfig"; path = "Target Support Files/Pods-AryaTests/Pods-AryaTests.debug.xcconfig"; sourceTree = "<group>"; };
 		0815A94A642BB654C94258EE /* Pods-Arya-AryaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Arya-AryaUITests.release.xcconfig"; path = "Target Support Files/Pods-Arya-AryaUITests/Pods-Arya-AryaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		0E6F5221256FE678007D519C /* FavoritedCommunitiesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritedCommunitiesView.swift; sourceTree = "<group>"; };
+		0E6F5226256FE6DB007D519C /* FavoritedCuriositiesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritedCuriositiesView.swift; sourceTree = "<group>"; };
+		0E6F522B256FE703007D519C /* FavoritedAreasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritedAreasView.swift; sourceTree = "<group>"; };
 		0EA9B007256F2E4200A1ABC5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0EA9B00F256F2EAC00A1ABC5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		0EA9B01A256F333300A1ABC5 /* MyJourneysView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyJourneysView.swift; sourceTree = "<group>"; };
@@ -107,6 +113,9 @@
 				0EA9B027256F342F00A1ABC5 /* ProfileView.swift */,
 				0EA9B018256F309900A1ABC5 /* Supporting Views */,
 				0EE1767D256F398D0082B8B8 /* FavoritedWomenView.swift */,
+				0E6F5221256FE678007D519C /* FavoritedCommunitiesView.swift */,
+				0E6F5226256FE6DB007D519C /* FavoritedCuriositiesView.swift */,
+				0E6F522B256FE703007D519C /* FavoritedAreasView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -436,11 +445,14 @@
 			files = (
 				0EA9B01B256F333300A1ABC5 /* MyJourneysView.swift in Sources */,
 				0EA9B023256F33FC00A1ABC5 /* ProfileHeaderView.swift in Sources */,
+				0E6F522C256FE703007D519C /* FavoritedAreasView.swift in Sources */,
 				0EA9B008256F2E4200A1ABC5 /* AppDelegate.swift in Sources */,
 				22FB55D9256E88DB001A59D0 /* ContentView.swift in Sources */,
 				0EE17679256F39530082B8B8 /* FavoritesView.swift in Sources */,
 				22FB55D7256E88DB001A59D0 /* AryaApp.swift in Sources */,
 				0EE1767E256F398D0082B8B8 /* FavoritedWomenView.swift in Sources */,
+				0E6F5222256FE678007D519C /* FavoritedCommunitiesView.swift in Sources */,
+				0E6F5227256FE6DB007D519C /* FavoritedCuriositiesView.swift in Sources */,
 				0EA9B028256F342F00A1ABC5 /* ProfileView.swift in Sources */,
 				0EA9B010256F2EAC00A1ABC5 /* SceneDelegate.swift in Sources */,
 			);

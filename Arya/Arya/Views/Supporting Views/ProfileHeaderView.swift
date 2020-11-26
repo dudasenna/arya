@@ -16,6 +16,7 @@ struct ProfileHeaderView: View {
                     .frame(width: 600, height: 300, alignment: .center)
                     .padding(.top, -70)
                     .foregroundColor(.purple)
+                    .shadow(color: .purple, radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
                     .accessibility(hidden: true)
                 Spacer()
             }.edgesIgnoringSafeArea(.top)

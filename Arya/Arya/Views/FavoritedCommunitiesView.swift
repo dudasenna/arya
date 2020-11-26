@@ -1,13 +1,14 @@
 //
-//  FavoritedWomenView.swift
+//  FavoritedCommunitiesView.swift
 //  Arya
 //
-//  Created by Ana Carolina Soares de Melo on 25/11/20.
+//  Created by Ana Carolina Soares de Melo on 26/11/20.
 //
 
 import SwiftUI
 
-struct FavoritedWomenView: View {
+struct FavoritedCommunitiesView: View {
+    
     let data = Array(1...15).map {"Item\($0)"}
     let gridLayout = [
         GridItem(.flexible()),
@@ -51,12 +52,12 @@ struct FavoritedWomenView: View {
             .padding(.top, 180)
             .padding(.bottom, 50)
         }.edgesIgnoringSafeArea(.all)
-        .navigationBarTitle("Mulheres", displayMode: .large)
+        .navigationBarTitle("Comunidades", displayMode: .large)
     }
 }
 
-struct FavoritedWomenView_Previews: PreviewProvider {
+struct FavoritedCommunitiesView_Previews: PreviewProvider {
     static var previews: some View {
-        FavoritedWomenView()
+        FavoritedCommunitiesView()
     }
 }

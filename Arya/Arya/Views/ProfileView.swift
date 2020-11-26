@@ -9,17 +9,21 @@ import SwiftUI
 
 struct ProfileView: View {
     var body: some View {
-        ScrollView(.vertical) {
-                        VStack {
-                            ProfileHeaderView()
-                            MyJourneysView()
-                                .frame(width: UIScreen.main.bounds.width)
-                            FavoritesView()
-                                .frame(width: UIScreen.main.bounds.width, height: 400)
-                        }
-                    }
-                        .frame(width: UIScreen.main.bounds.width - 50)
-                        .offset(y: -10)
+        NavigationView {
+            ScrollView(.vertical) {
+                VStack {
+                    ProfileHeaderView()
+                    MyJourneysView()
+                        .frame(width: UIScreen.main.bounds.width)
+                    FavoritesView()
+                        .frame(width: UIScreen.main.bounds.width, height: 400)
+                }
+            }
+            .frame(width: UIScreen.main.bounds.width - 50)
+            .offset(y: 40)
+            .edgesIgnoringSafeArea(.all)
+            .navigationBarHidden(true)
+        }
     }
 }
 
