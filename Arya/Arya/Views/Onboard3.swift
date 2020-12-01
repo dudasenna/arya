@@ -27,7 +27,8 @@ struct Onboard3: View {
             .padding([.top, .bottom, .trailing])
             HStack() {
                 Text("Venha somar")
-                    .font(.title)
+                    .font(.largeTitle)
+                    .fontWeight(.heavy)
                     .foregroundColor(Color.orange)
                     .padding(.all)
                 Spacer()

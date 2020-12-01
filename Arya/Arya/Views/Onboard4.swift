@@ -30,6 +30,7 @@ struct Onboard4: View {
             HStack() {
                 Text("Como seus amigos\nte chamam?")
                     .font(.title)
+                    .fontWeight(.bold)
                     .foregroundColor(Color.orange)
                     .padding(.all)
                 Spacer()

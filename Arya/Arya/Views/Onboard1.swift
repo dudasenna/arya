@@ -27,14 +27,15 @@ struct Onboard1: View {
             .padding([.top, .bottom, .trailing])
             HStack() {
                 Text("Descubra")
-                    .font(.title)
+                    .font(.largeTitle)
+                    .fontWeight(.heavy)
                     .foregroundColor(Color.orange)
                     .padding(.all)
                 Spacer()
             }
             Spacer()
             Text("Desvende os cursos da área de exatas, conheça mais sobre as áreas de atuação e curiosidades de cada curso.")
-                .font(.callout)
+                .font(.body)
                 .foregroundColor(Color.gray)
                 .multilineTextAlignment(.center)
                 .padding([.leading, .trailing])

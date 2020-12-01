@@ -28,6 +28,7 @@ struct Onboard2: View {
             HStack() {
                 Text("Ciência também é\ncoisa de menina")
                     .font(.title)
+                    .fontWeight(.heavy)
                     .foregroundColor(Color.orange)
                     .padding(.all)
                 Spacer()
