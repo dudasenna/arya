@@ -19,6 +19,10 @@
 		22FB55DE256E88DC001A59D0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22FB55DD256E88DC001A59D0 /* Preview Assets.xcassets */; };
 		22FB55E9256E88DC001A59D0 /* AryaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FB55E8256E88DC001A59D0 /* AryaTests.swift */; };
 		22FB55F4256E88DC001A59D0 /* AryaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FB55F3256E88DC001A59D0 /* AryaUITests.swift */; };
+		22FB5611256E8B20001A59D0 /* Onboard1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FB5610256E8B20001A59D0 /* Onboard1.swift */; };
+		22FB5616256E8B76001A59D0 /* Onboard2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FB5615256E8B76001A59D0 /* Onboard2.swift */; };
+		22FB561B256E8BA3001A59D0 /* Onboard3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FB561A256E8BA3001A59D0 /* Onboard3.swift */; };
+		22FB5620256E8BB5001A59D0 /* Onboard4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FB561F256E8BB5001A59D0 /* Onboard4.swift */; };
 		93EB4820E87558DA3B6E0E5E /* Pods_Arya_AryaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBE402F2C92C54CEE006B39D /* Pods_Arya_AryaUITests.framework */; };
 		C4F2A4EA27EA635E0C84937B /* Pods_Arya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77C7CA0D48414DEB518B1611 /* Pods_Arya.framework */; };
 /* End PBXBuildFile section */
@@ -62,6 +66,10 @@
 		22FB55EF256E88DC001A59D0 /* AryaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AryaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		22FB55F3256E88DC001A59D0 /* AryaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AryaUITests.swift; sourceTree = "<group>"; };
 		22FB55F5256E88DC001A59D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22FB5610256E8B20001A59D0 /* Onboard1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboard1.swift; sourceTree = "<group>"; };
+		22FB5615256E8B76001A59D0 /* Onboard2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboard2.swift; sourceTree = "<group>"; };
+		22FB561A256E8BA3001A59D0 /* Onboard3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboard3.swift; sourceTree = "<group>"; };
+		22FB561F256E8BB5001A59D0 /* Onboard4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboard4.swift; sourceTree = "<group>"; };
 		77C7CA0D48414DEB518B1611 /* Pods_Arya.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Arya.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACEF42E1B555007F71A2D5F3 /* Pods-AryaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AryaTests.release.xcconfig"; path = "Target Support Files/Pods-AryaTests/Pods-AryaTests.release.xcconfig"; sourceTree = "<group>"; };
 		E4FFAFB0E1FBD6FDB3CF279D /* Pods-Arya-AryaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Arya-AryaUITests.debug.xcconfig"; path = "Target Support Files/Pods-Arya-AryaUITests/Pods-Arya-AryaUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -149,6 +157,7 @@
 			children = (
 				0EA9B019256F30AA00A1ABC5 /* Models */,
 				0EA9B017256F309200A1ABC5 /* Views Curiosities Front */,
+        22FB560F256E8B0F001A59D0 /* Views */,
 				22FB55D6256E88DB001A59D0 /* AryaApp.swift */,
 				22FB55D8256E88DB001A59D0 /* ContentView.swift */,
 				0EA9B007256F2E4200A1ABC5 /* AppDelegate.swift */,
@@ -184,6 +193,17 @@
 				22FB55F5256E88DC001A59D0 /* Info.plist */,
 			);
 			path = AryaUITests;
+			sourceTree = "<group>";
+		};
+		22FB560F256E8B0F001A59D0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				22FB5610256E8B20001A59D0 /* Onboard1.swift */,
+				22FB5615256E8B76001A59D0 /* Onboard2.swift */,
+				22FB561A256E8BA3001A59D0 /* Onboard3.swift */,
+				22FB561F256E8BB5001A59D0 /* Onboard4.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		C2EB1E19EA30ACF239251111 /* Pods */ = {
@@ -427,7 +447,7 @@
 		22FB55CF256E88DB001A59D0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
-			files = (
+			files = 
 				0E57C58B2575898D0045B52A /* CuriosityCardView.swift in Sources */,
 				0EA9B008256F2E4200A1ABC5 /* AppDelegate.swift in Sources */,
 				22FB55D9256E88DB001A59D0 /* ContentView.swift in Sources */,
@@ -435,6 +455,12 @@
 				22FB55D7256E88DB001A59D0 /* AryaApp.swift in Sources */,
 				0EA9B010256F2EAC00A1ABC5 /* SceneDelegate.swift in Sources */,
 				0E57C586257588400045B52A /* Curiosity.swift in Sources */,
+        22FB5616256E8B76001A59D0 /* Onboard2.swift in Sources */,
+				22FB55D9256E88DB001A59D0 /* ContentView.swift in Sources */,
+				22FB5611256E8B20001A59D0 /* Onboard1.swift in Sources */,
+				22FB55D7256E88DB001A59D0 /* AryaApp.swift in Sources */,
+				22FB5620256E8BB5001A59D0 /* Onboard4.swift in Sources */,
+				22FB561B256E8BA3001A59D0 /* Onboard3.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
