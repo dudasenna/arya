@@ -97,13 +97,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0EA9B017256F309200A1ABC5 /* Views */ = {
+		0EA9B017256F309200A1ABC5 /* Views Curiosities Front */ = {
 			isa = PBXGroup;
 			children = (
 				0EA9B018256F309900A1ABC5 /* Supporting Views */,
 				0E57C593257592DF0045B52A /* CuriositiesView.swift */,
 			);
-			path = Views;
+			path = "Views Curiosities Front";
 			sourceTree = "<group>";
 		};
 		0EA9B018256F309900A1ABC5 /* Supporting Views */ = {
@@ -148,7 +148,7 @@
 			isa = PBXGroup;
 			children = (
 				0EA9B019256F30AA00A1ABC5 /* Models */,
-				0EA9B017256F309200A1ABC5 /* Views */,
+				0EA9B017256F309200A1ABC5 /* Views Curiosities Front */,
 				22FB55D6256E88DB001A59D0 /* AryaApp.swift */,
 				22FB55D8256E88DB001A59D0 /* ContentView.swift */,
 				0EA9B007256F2E4200A1ABC5 /* AppDelegate.swift */,
