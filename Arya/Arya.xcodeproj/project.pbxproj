@@ -23,6 +23,7 @@
 		22FB5616256E8B76001A59D0 /* Onboard2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FB5615256E8B76001A59D0 /* Onboard2.swift */; };
 		22FB561B256E8BA3001A59D0 /* Onboard3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FB561A256E8BA3001A59D0 /* Onboard3.swift */; };
 		22FB5620256E8BB5001A59D0 /* Onboard4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FB561F256E8BB5001A59D0 /* Onboard4.swift */; };
+		2C6CFF8D2579682E0046AF5C /* PresentationScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6CFF8C2579682E0046AF5C /* PresentationScreen.swift */; };
 		93EB4820E87558DA3B6E0E5E /* Pods_Arya_AryaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBE402F2C92C54CEE006B39D /* Pods_Arya_AryaUITests.framework */; };
 		C4F2A4EA27EA635E0C84937B /* Pods_Arya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77C7CA0D48414DEB518B1611 /* Pods_Arya.framework */; };
 /* End PBXBuildFile section */
@@ -70,6 +71,7 @@
 		22FB5615256E8B76001A59D0 /* Onboard2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboard2.swift; sourceTree = "<group>"; };
 		22FB561A256E8BA3001A59D0 /* Onboard3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboard3.swift; sourceTree = "<group>"; };
 		22FB561F256E8BB5001A59D0 /* Onboard4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboard4.swift; sourceTree = "<group>"; };
+		2C6CFF8C2579682E0046AF5C /* PresentationScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationScreen.swift; sourceTree = "<group>"; };
 		77C7CA0D48414DEB518B1611 /* Pods_Arya.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Arya.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACEF42E1B555007F71A2D5F3 /* Pods-AryaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AryaTests.release.xcconfig"; path = "Target Support Files/Pods-AryaTests/Pods-AryaTests.release.xcconfig"; sourceTree = "<group>"; };
 		E4FFAFB0E1FBD6FDB3CF279D /* Pods-Arya-AryaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Arya-AryaUITests.debug.xcconfig"; path = "Target Support Files/Pods-Arya-AryaUITests/Pods-Arya-AryaUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -186,6 +188,7 @@
 				22FB561A256E8BA3001A59D0 /* Onboard3.swift */,
 				22FB561F256E8BB5001A59D0 /* Onboard4.swift */,
 				22D2C65A2576E3BE00F46CD1 /* HomeView.swift */,
+				2C6CFF8C2579682E0046AF5C /* PresentationScreen.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -439,6 +442,7 @@
 				22B7FDC82576E19C00329493 /* ViewRouter.swift in Sources */,
 				22FB55D9256E88DB001A59D0 /* ContentView.swift in Sources */,
 				22FB5611256E8B20001A59D0 /* Onboard1.swift in Sources */,
+				2C6CFF8D2579682E0046AF5C /* PresentationScreen.swift in Sources */,
 				22FB55D7256E88DB001A59D0 /* AryaApp.swift in Sources */,
 				22B7FDD02576E1F400329493 /* MotherView.swift in Sources */,
 				22FB5620256E8BB5001A59D0 /* Onboard4.swift in Sources */,
