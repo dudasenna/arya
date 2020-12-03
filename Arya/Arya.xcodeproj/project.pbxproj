@@ -10,6 +10,7 @@
 		0E6F5222256FE678007D519C /* FavoritedCommunitiesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6F5221256FE678007D519C /* FavoritedCommunitiesView.swift */; };
 		0E6F5227256FE6DB007D519C /* FavoritedCuriositiesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6F5226256FE6DB007D519C /* FavoritedCuriositiesView.swift */; };
 		0E6F522C256FE703007D519C /* FavoritedAreasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6F522B256FE703007D519C /* FavoritedAreasView.swift */; };
+		0EA57CFD25791AF800FF2C43 /* NavigationBarModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA57CFC25791AF800FF2C43 /* NavigationBarModifier.swift */; };
 		0EA9B008256F2E4200A1ABC5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA9B007256F2E4200A1ABC5 /* AppDelegate.swift */; };
 		0EA9B010256F2EAC00A1ABC5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA9B00F256F2EAC00A1ABC5 /* SceneDelegate.swift */; };
 		0EA9B01B256F333300A1ABC5 /* MyJourneysView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA9B01A256F333300A1ABC5 /* MyJourneysView.swift */; };
@@ -55,6 +56,7 @@
 		0E6F5221256FE678007D519C /* FavoritedCommunitiesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritedCommunitiesView.swift; sourceTree = "<group>"; };
 		0E6F5226256FE6DB007D519C /* FavoritedCuriositiesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritedCuriositiesView.swift; sourceTree = "<group>"; };
 		0E6F522B256FE703007D519C /* FavoritedAreasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritedAreasView.swift; sourceTree = "<group>"; };
+		0EA57CFC25791AF800FF2C43 /* NavigationBarModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarModifier.swift; sourceTree = "<group>"; };
 		0EA9B007256F2E4200A1ABC5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0EA9B00F256F2EAC00A1ABC5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		0EA9B01A256F333300A1ABC5 /* MyJourneysView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyJourneysView.swift; sourceTree = "<group>"; };
@@ -119,11 +121,11 @@
 			isa = PBXGroup;
 			children = (
 				0EA9B027256F342F00A1ABC5 /* ProfileView.swift */,
-				0EA9B018256F309900A1ABC5 /* Supporting Views */,
 				0EE1767D256F398D0082B8B8 /* FavoritedWomenView.swift */,
 				0E6F5221256FE678007D519C /* FavoritedCommunitiesView.swift */,
 				0E6F5226256FE6DB007D519C /* FavoritedCuriositiesView.swift */,
 				0E6F522B256FE703007D519C /* FavoritedAreasView.swift */,
+				0EA9B018256F309900A1ABC5 /* Supporting Views */,
 			);
 			path = "Views Profile Front";
 			sourceTree = "<group>";
@@ -141,6 +143,7 @@
 		0EA9B019256F30AA00A1ABC5 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				0EA57CFC25791AF800FF2C43 /* NavigationBarModifier.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -170,10 +173,9 @@
 		22FB55D5256E88DB001A59D0 /* Arya */ = {
 			isa = PBXGroup;
 			children = (
-
 				0EA9B019256F30AA00A1ABC5 /* Models */,
 				0EA9B017256F309200A1ABC5 /* Views Profile Front */,
-        22FB560F256E8B0F001A59D0 /* Views */,
+				22FB560F256E8B0F001A59D0 /* Views */,
 				22FB55D6256E88DB001A59D0 /* AryaApp.swift */,
 				22FB55D8256E88DB001A59D0 /* ContentView.swift */,
 				0EA9B007256F2E4200A1ABC5 /* AppDelegate.swift */,
@@ -464,7 +466,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-
 				0EA9B01B256F333300A1ABC5 /* MyJourneysView.swift in Sources */,
 				0EA9B023256F33FC00A1ABC5 /* ProfileHeaderView.swift in Sources */,
 				0E6F522C256FE703007D519C /* FavoritedAreasView.swift in Sources */,
@@ -475,15 +476,15 @@
 				0EE1767E256F398D0082B8B8 /* FavoritedWomenView.swift in Sources */,
 				0E6F5222256FE678007D519C /* FavoritedCommunitiesView.swift in Sources */,
 				0E6F5227256FE6DB007D519C /* FavoritedCuriositiesView.swift in Sources */,
+				0EA57CFD25791AF800FF2C43 /* NavigationBarModifier.swift in Sources */,
 				0EA9B028256F342F00A1ABC5 /* ProfileView.swift in Sources */,
 				0EA9B010256F2EAC00A1ABC5 /* SceneDelegate.swift in Sources */,
-        22FB5616256E8B76001A59D0 /* Onboard2.swift in Sources */,
+				22FB5616256E8B76001A59D0 /* Onboard2.swift in Sources */,
 				22FB55D9256E88DB001A59D0 /* ContentView.swift in Sources */,
 				22FB5611256E8B20001A59D0 /* Onboard1.swift in Sources */,
 				22FB55D7256E88DB001A59D0 /* AryaApp.swift in Sources */,
 				22FB5620256E8BB5001A59D0 /* Onboard4.swift in Sources */,
 				22FB561B256E8BA3001A59D0 /* Onboard3.swift in Sources */,
-
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
