@@ -15,7 +15,6 @@
 			dependencies = (
 			);
 			name = SwiftLint;
-			productName = SwiftLint;
 		};
 /* End PBXAggregateTarget section */
 
@@ -57,7 +56,7 @@
 
 /* Begin PBXFileReference section */
 		060C245B66C5D2190B0418BCBC4CF7F7 /* Pods-Arya-AryaUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Arya-AryaUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		0DB5E8CD868827742DE4A3A1AF5FA696 /* Pods_AryaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AryaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DB5E8CD868827742DE4A3A1AF5FA696 /* Pods_AryaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AryaTests.framework; path = "Pods-AryaTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18B13692D31F53AB2A4E265F45C03450 /* Pods-AryaTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AryaTests-umbrella.h"; sourceTree = "<group>"; };
 		1E8120C447E477B11A051345661BEBBD /* Pods-Arya-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Arya-Info.plist"; sourceTree = "<group>"; };
 		29B5D15A40E3B4C3F23C01A8CFA9AE4A /* Pods-AryaTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AryaTests-dummy.m"; sourceTree = "<group>"; };
@@ -65,7 +64,7 @@
 		3A1391DF94AB1E2E204F9802316B5B9E /* Pods-Arya-AryaUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Arya-AryaUITests.modulemap"; sourceTree = "<group>"; };
 		3EC0124719FE8EF5FDDD72C26F8A2F57 /* SwiftLint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftLint.debug.xcconfig; sourceTree = "<group>"; };
 		466A60818065B3CAB5EDEDAE21F24BA0 /* Pods-Arya-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Arya-dummy.m"; sourceTree = "<group>"; };
-		5644E9E78C0EA7D8B8F94E7F86783FB3 /* Pods_Arya.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Arya.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5644E9E78C0EA7D8B8F94E7F86783FB3 /* Pods_Arya.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Arya.framework; path = "Pods-Arya.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		62DBC273D7296BE1E17D6CCB77B08248 /* Pods-Arya-AryaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Arya-AryaUITests.release.xcconfig"; sourceTree = "<group>"; };
 		66FEE093C239F1B374D6BB5FC08CF334 /* Pods-AryaTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AryaTests.modulemap"; sourceTree = "<group>"; };
 		6CFF2BF43E18E0ADBEC2956C83E4CB4F /* Pods-Arya.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Arya.release.xcconfig"; sourceTree = "<group>"; };
@@ -75,7 +74,7 @@
 		7EAB1DA481EDDC005A251D3A5E6BE4CD /* SwiftLint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftLint.release.xcconfig; sourceTree = "<group>"; };
 		848968B01A488B6F983BD966CC6DFB7A /* Pods-Arya-AryaUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Arya-AryaUITests-Info.plist"; sourceTree = "<group>"; };
 		934A6D36A77C676B19C9A99055ED3A7E /* Pods-Arya-AryaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Arya-AryaUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A4260610F202BAEE96240FDF3BE40083 /* Pods-AryaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AryaTests.release.xcconfig"; sourceTree = "<group>"; };
 		ABF9C2915F366192D961024588256465 /* Pods-AryaTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AryaTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		AE45F7C9D7243D6C4380EE47DA35A520 /* Pods-Arya.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Arya.modulemap"; sourceTree = "<group>"; };
@@ -84,7 +83,7 @@
 		BC4512A7D3E1064D36FB7C14C5D2739C /* Pods-AryaTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AryaTests-Info.plist"; sourceTree = "<group>"; };
 		BEEDB7E2BB5C9F0BE032BD7EB8BAE355 /* Pods-AryaTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AryaTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		CBD1631738DF3518474DF2191FD43BF8 /* Pods-Arya-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Arya-umbrella.h"; sourceTree = "<group>"; };
-		CF3CFD238B15A9CC615CC8CA89326F07 /* Pods_Arya_AryaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Arya_AryaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF3CFD238B15A9CC615CC8CA89326F07 /* Pods_Arya_AryaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Arya_AryaUITests.framework; path = "Pods-Arya-AryaUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8726A235A21C4DEEC3D28AEDC6D2D3B /* Pods-Arya-AryaUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Arya-AryaUITests-umbrella.h"; sourceTree = "<group>"; };
 		F9DF60C265E5A564C190C27EE1392118 /* Pods-Arya-AryaUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Arya-AryaUITests-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -225,6 +224,7 @@
 			children = (
 				7FDA596DBE0337ACDFE55A210D54EF26 /* Support Files */,
 			);
+			name = SwiftLint;
 			path = SwiftLint;
 			sourceTree = "<group>";
 		};
@@ -332,7 +332,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1220;
+				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 9.3";
@@ -712,7 +712,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -804,7 +804,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
