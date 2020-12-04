@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E420CAF257AF53400D2F60C /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E420CAE257AF53400D2F60C /* FavoritesView.swift */; };
+		0E420CB7257AF5A100D2F60C /* FavoritedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E420CB6257AF5A100D2F60C /* FavoritedView.swift */; };
+		0E420CC8257AFCB900D2F60C /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E420CC7257AFCB900D2F60C /* ProfileHeaderView.swift */; };
+		0E420CCD257AFE4F00D2F60C /* MyJourneysView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E420CCC257AFE4F00D2F60C /* MyJourneysView.swift */; };
+		0E420CD2257AFEFB00D2F60C /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E420CD1257AFEFB00D2F60C /* ProfileView.swift */; };
+		0E420CD7257AFF3100D2F60C /* NavigationBarModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E420CD6257AFF3100D2F60C /* NavigationBarModifier.swift */; };
 		209DDEC5BCC3F3AD1B9BE436 /* Pods_AryaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E6B794D0916D91B53533909 /* Pods_AryaTests.framework */; };
 		22B7FDC82576E19C00329493 /* ViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B7FDC72576E19C00329493 /* ViewRouter.swift */; };
 		22B7FDD02576E1F400329493 /* MotherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B7FDCF2576E1F400329493 /* MotherView.swift */; };
@@ -48,6 +54,12 @@
 /* Begin PBXFileReference section */
 		0569A96CC19B3612D67E105E /* Pods-AryaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AryaTests.debug.xcconfig"; path = "Target Support Files/Pods-AryaTests/Pods-AryaTests.debug.xcconfig"; sourceTree = "<group>"; };
 		0815A94A642BB654C94258EE /* Pods-Arya-AryaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Arya-AryaUITests.release.xcconfig"; path = "Target Support Files/Pods-Arya-AryaUITests/Pods-Arya-AryaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		0E420CAE257AF53400D2F60C /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
+		0E420CB6257AF5A100D2F60C /* FavoritedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritedView.swift; sourceTree = "<group>"; };
+		0E420CC7257AFCB900D2F60C /* ProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderView.swift; sourceTree = "<group>"; };
+		0E420CCC257AFE4F00D2F60C /* MyJourneysView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyJourneysView.swift; sourceTree = "<group>"; };
+		0E420CD1257AFEFB00D2F60C /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		0E420CD6257AFF3100D2F60C /* NavigationBarModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarModifier.swift; sourceTree = "<group>"; };
 		1654DF7451EC02E8CA0B5E8F /* Pods-Arya.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Arya.debug.xcconfig"; path = "Target Support Files/Pods-Arya/Pods-Arya.debug.xcconfig"; sourceTree = "<group>"; };
 		1E6B794D0916D91B53533909 /* Pods_AryaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AryaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		22B7FDC72576E19C00329493 /* ViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewRouter.swift; sourceTree = "<group>"; };
@@ -107,6 +119,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E420CAD257AF51500D2F60C /* Supporting Views */ = {
+			isa = PBXGroup;
+			children = (
+				0E420CAE257AF53400D2F60C /* FavoritesView.swift */,
+				0E420CB6257AF5A100D2F60C /* FavoritedView.swift */,
+				0E420CC7257AFCB900D2F60C /* ProfileHeaderView.swift */,
+				0E420CCC257AFE4F00D2F60C /* MyJourneysView.swift */,
+			);
+			path = "Supporting Views";
+			sourceTree = "<group>";
+		};
+		0E420CBB257AF85B00D2F60C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0E420CD6257AFF3100D2F60C /* NavigationBarModifier.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		22B7FDC32576E0C400329493 /* Class */ = {
 			isa = PBXGroup;
 			children = (
@@ -143,6 +174,7 @@
 				22D2C65F2576E52000F46CD1 /* AppDelegate.swift */,
 				22D2C6602576E52000F46CD1 /* SceneDelegate.swift */,
 				22B7FDC32576E0C400329493 /* Class */,
+				0E420CBB257AF85B00D2F60C /* Models */,
 				22FB560F256E8B0F001A59D0 /* Views */,
 				22FB55D6256E88DB001A59D0 /* AryaApp.swift */,
 				22FB55D8256E88DB001A59D0 /* ContentView.swift */,
@@ -182,6 +214,7 @@
 		22FB560F256E8B0F001A59D0 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				0E420CAD257AF51500D2F60C /* Supporting Views */,
 				22B7FDCF2576E1F400329493 /* MotherView.swift */,
 				22FB5610256E8B20001A59D0 /* Onboard1.swift */,
 				22FB5615256E8B76001A59D0 /* Onboard2.swift */,
@@ -189,6 +222,7 @@
 				22FB561F256E8BB5001A59D0 /* Onboard4.swift */,
 				22D2C65A2576E3BE00F46CD1 /* HomeView.swift */,
 				2C6CFF8C2579682E0046AF5C /* PresentationScreen.swift */,
+				0E420CD1257AFEFB00D2F60C /* ProfileView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -437,16 +471,22 @@
 			files = (
 				22D2C6612576E52000F46CD1 /* AppDelegate.swift in Sources */,
 				22D2C6622576E52000F46CD1 /* SceneDelegate.swift in Sources */,
+				0E420CD7257AFF3100D2F60C /* NavigationBarModifier.swift in Sources */,
+				0E420CAF257AF53400D2F60C /* FavoritesView.swift in Sources */,
 				22D2C65B2576E3BE00F46CD1 /* HomeView.swift in Sources */,
 				22FB5616256E8B76001A59D0 /* Onboard2.swift in Sources */,
+				0E420CB7257AF5A100D2F60C /* FavoritedView.swift in Sources */,
 				22B7FDC82576E19C00329493 /* ViewRouter.swift in Sources */,
+				0E420CC8257AFCB900D2F60C /* ProfileHeaderView.swift in Sources */,
 				22FB55D9256E88DB001A59D0 /* ContentView.swift in Sources */,
+				0E420CD2257AFEFB00D2F60C /* ProfileView.swift in Sources */,
 				22FB5611256E8B20001A59D0 /* Onboard1.swift in Sources */,
 				2C6CFF8D2579682E0046AF5C /* PresentationScreen.swift in Sources */,
 				22FB55D7256E88DB001A59D0 /* AryaApp.swift in Sources */,
 				22B7FDD02576E1F400329493 /* MotherView.swift in Sources */,
 				22FB5620256E8BB5001A59D0 /* Onboard4.swift in Sources */,
 				22FB561B256E8BA3001A59D0 /* Onboard3.swift in Sources */,
+				0E420CCD257AFE4F00D2F60C /* MyJourneysView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
