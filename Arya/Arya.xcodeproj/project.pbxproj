@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E877FDC257B169500638FEE /* AreasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E877FDB257B169500638FEE /* AreasView.swift */; };
+		0E877FE1257B16FE00638FEE /* AreaCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E877FE0257B16FE00638FEE /* AreaCardView.swift */; };
 		209DDEC5BCC3F3AD1B9BE436 /* Pods_AryaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E6B794D0916D91B53533909 /* Pods_AryaTests.framework */; };
 		22B7FDC82576E19C00329493 /* ViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B7FDC72576E19C00329493 /* ViewRouter.swift */; };
 		22B7FDD02576E1F400329493 /* MotherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B7FDCF2576E1F400329493 /* MotherView.swift */; };
@@ -48,6 +50,8 @@
 /* Begin PBXFileReference section */
 		0569A96CC19B3612D67E105E /* Pods-AryaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AryaTests.debug.xcconfig"; path = "Target Support Files/Pods-AryaTests/Pods-AryaTests.debug.xcconfig"; sourceTree = "<group>"; };
 		0815A94A642BB654C94258EE /* Pods-Arya-AryaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Arya-AryaUITests.release.xcconfig"; path = "Target Support Files/Pods-Arya-AryaUITests/Pods-Arya-AryaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		0E877FDB257B169500638FEE /* AreasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreasView.swift; sourceTree = "<group>"; };
+		0E877FE0257B16FE00638FEE /* AreaCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreaCardView.swift; sourceTree = "<group>"; };
 		1654DF7451EC02E8CA0B5E8F /* Pods-Arya.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Arya.debug.xcconfig"; path = "Target Support Files/Pods-Arya/Pods-Arya.debug.xcconfig"; sourceTree = "<group>"; };
 		1E6B794D0916D91B53533909 /* Pods_AryaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AryaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		22B7FDC72576E19C00329493 /* ViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewRouter.swift; sourceTree = "<group>"; };
@@ -189,6 +193,8 @@
 				22FB561F256E8BB5001A59D0 /* Onboard4.swift */,
 				22D2C65A2576E3BE00F46CD1 /* HomeView.swift */,
 				2C6CFF8C2579682E0046AF5C /* PresentationScreen.swift */,
+				0E877FDB257B169500638FEE /* AreasView.swift */,
+				0E877FE0257B16FE00638FEE /* AreaCardView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -439,12 +445,14 @@
 				22D2C6622576E52000F46CD1 /* SceneDelegate.swift in Sources */,
 				22D2C65B2576E3BE00F46CD1 /* HomeView.swift in Sources */,
 				22FB5616256E8B76001A59D0 /* Onboard2.swift in Sources */,
+				0E877FDC257B169500638FEE /* AreasView.swift in Sources */,
 				22B7FDC82576E19C00329493 /* ViewRouter.swift in Sources */,
 				22FB55D9256E88DB001A59D0 /* ContentView.swift in Sources */,
 				22FB5611256E8B20001A59D0 /* Onboard1.swift in Sources */,
 				2C6CFF8D2579682E0046AF5C /* PresentationScreen.swift in Sources */,
 				22FB55D7256E88DB001A59D0 /* AryaApp.swift in Sources */,
 				22B7FDD02576E1F400329493 /* MotherView.swift in Sources */,
+				0E877FE1257B16FE00638FEE /* AreaCardView.swift in Sources */,
 				22FB5620256E8BB5001A59D0 /* Onboard4.swift in Sources */,
 				22FB561B256E8BA3001A59D0 /* Onboard3.swift in Sources */,
 			);
