@@ -21,6 +21,20 @@ struct MotherView : View {
                 OnboardingFinalView()
             } else if viewRouter.currentPage == "homeView" {
                 HomeView()
+            } else if viewRouter.currentPage == "courseView" {
+                CourseView()
+            } else if viewRouter.currentPage == "curiositiesView" {
+                CuriositiesView()
+            } else if viewRouter.currentPage == "areasView" {
+                AreasView()
+            } else if viewRouter.currentPage == "aboutCourseView" {
+                AboutCourseView()
+            } else if viewRouter.currentPage == "quizView" {
+                QuizView()
+            } else if viewRouter.currentPage == "quizFinalView" {
+                QuizFinalView()
+            } else {
+                HomeView()
             }
         }
     }

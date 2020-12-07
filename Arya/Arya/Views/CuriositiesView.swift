@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct CuriositiesView: View {
+
+    @EnvironmentObject var viewRouter: ViewRouter
+
     var body: some View {
             // MARK: Header
             VStack {
@@ -26,7 +29,7 @@ struct CuriositiesView: View {
                     
                     // MARK: Heart Button
                     Button(action: {
-                        print("Exit button tapped!")
+                        self.viewRouter.currentPage = "courseView"
                     }) {
                         Image(systemName: "xmark")
                             .resizable()

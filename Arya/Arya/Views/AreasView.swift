@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct AreasView: View {
+
+    @EnvironmentObject var viewRouter: ViewRouter
+
     let data = Array(1...15).map {"Favorited\($0)"}
     let gridLayout = [
         GridItem(.flexible()),
@@ -31,7 +34,7 @@ struct AreasView: View {
                 
                 // MARK: Exit Button
                 Button(action: {
-                    print("Exit button tapped!")
+                    self.viewRouter.currentPage = "courseView"
                 }) {
                     Image(systemName: "xmark")
                         .resizable()

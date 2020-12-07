@@ -8,8 +8,19 @@
 import SwiftUI
 
 struct HomeView: View {
+    
+    @EnvironmentObject var viewRouter: ViewRouter
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack(alignment: .center, spacing: nil, content: {
+            Text("Todos os cursos")
+            Button(action: {
+                self.viewRouter.currentPage = "courseView"
+            }, label: {
+                Text("Curso específico")
+            })
+            .padding(.vertical)
+        })
     }
 }
 

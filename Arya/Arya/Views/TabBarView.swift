@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct TabBarView: View {
+    
+    @EnvironmentObject var viewRouter: ViewRouter
+    
     var body: some View {
         TabView {
             HomeView()
@@ -16,8 +19,7 @@ struct TabBarView: View {
                     Text("Início")
                 }.tag(0)
             // Swap function Text("Quiz") for function below
-            //QuizView()
-            Text("Quiz")
+            QuizView()
                 .tabItem {
                     Image(systemName: "gamecontroller.fill")
                     Text("Quiz")
