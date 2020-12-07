@@ -16,7 +16,7 @@ struct ProfileView: View {
                             MyJourneysView()
                                 .frame(width: UIScreen.main.bounds.width)
                             FavoritesView()
-                                .frame(width: UIScreen.main.bounds.width, height: 400)
+                                .frame(width: UIScreen.main.bounds.width, height: 350)
                         }
                     }
                     .frame(width: UIScreen.main.bounds.width - 50)
