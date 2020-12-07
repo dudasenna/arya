@@ -7,21 +7,14 @@
 
 import SwiftUI
 
-struct OnboardingFinalView: View {
+struct Onboard4: View {
 
     @State var name: String = ""
-    
-    @EnvironmentObject var viewRouter: ViewRouter
-    
-    @State var currentPageIndex = 0
 
     var body: some View {
         VStack(alignment: .center) {
             HStack(alignment: .center) {
-                Button(action:{
-                    viewRouter.currentPage = "onboardingView"
-                    
-                }, label: {
+                Button(action:/*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
                     Image(systemName: "chevron.left").foregroundColor(.purple)
                         .padding(.leading, 3.0)
                         .font(Font.system(.title))
@@ -51,21 +44,16 @@ struct OnboardingFinalView: View {
                         .stroke(Color.purple, lineWidth: 2)
                         .frame(width: 300, height: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                 )
+            
             Spacer()
             
-            RoundedRectangle(cornerRadius: 25).foregroundColor(.orange)
-                .frame(width: 240, height: 50, alignment: .center)
+            RoundedRectangle(cornerRadius: /*@START_MENU_TOKEN@*/25.0/*@END_MENU_TOKEN@*/).foregroundColor(/*@START_MENU_TOKEN@*/.orange/*@END_MENU_TOKEN@*/)
+                .frame(width: 240, height: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                 .overlay(
-                    Button(action:{
-                        withAnimation {
-                            self.viewRouter.currentPage = "homeView"
-                        }
-                    }, label: {
-                        Text("Vamos começar")
-                            .font(.headline)
-                            .foregroundColor(Color.white)
-                            .multilineTextAlignment(.center)
-                    })
+                    Text("Vamos começar")
+                        .font(.subheadline)
+                        .fontWeight(.bold)
+                        .foregroundColor(Color.white)
                 )
                 .padding(.bottom, 60.0)
             .padding([.top, .leading, .trailing])
@@ -76,7 +64,7 @@ struct OnboardingFinalView: View {
 
 struct Onboard4_Previews: PreviewProvider {
     static var previews: some View {
-        OnboardingFinalView()
+        Onboard4()
             .previewDevice("iPhone 8")
     }
 }
