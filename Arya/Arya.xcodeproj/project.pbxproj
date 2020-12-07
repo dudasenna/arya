@@ -7,22 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0E420CDF257B070D00D2F60C /* CuriosityCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E420CDE257B070D00D2F60C /* CuriosityCardView.swift */; };
-		0E420CE4257B074700D2F60C /* CuriositiesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E420CE3257B074700D2F60C /* CuriositiesView.swift */; };
-		0E877FDC257B169500638FEE /* AreasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E877FDB257B169500638FEE /* AreasView.swift */; };
-		0E877FE1257B16FE00638FEE /* AreaCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E877FE0257B16FE00638FEE /* AreaCardView.swift */; };
-		0E877FC0257B0E5600638FEE /* CurriculumCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E877FBF257B0E5600638FEE /* CurriculumCardView.swift */; };
-		0E877FC5257B0F0000638FEE /* DescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E877FC4257B0F0000638FEE /* DescriptionView.swift */; };
-		0E877FCA257B0F2800638FEE /* LengthCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E877FC9257B0F2800638FEE /* LengthCardView.swift */; };
-		0E877FCF257B0F5500638FEE /* UniversitiesCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E877FCE257B0F5500638FEE /* UniversitiesCardView.swift */; };
-		0E877FD4257B110E00638FEE /* AboutCourseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E877FD3257B110E00638FEE /* AboutCourseView.swift */; };
 		0E420CAF257AF53400D2F60C /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E420CAE257AF53400D2F60C /* FavoritesView.swift */; };
 		0E420CB7257AF5A100D2F60C /* FavoritedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E420CB6257AF5A100D2F60C /* FavoritedView.swift */; };
 		0E420CC8257AFCB900D2F60C /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E420CC7257AFCB900D2F60C /* ProfileHeaderView.swift */; };
 		0E420CCD257AFE4F00D2F60C /* MyJourneysView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E420CCC257AFE4F00D2F60C /* MyJourneysView.swift */; };
 		0E420CD2257AFEFB00D2F60C /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E420CD1257AFEFB00D2F60C /* ProfileView.swift */; };
 		0E420CD7257AFF3100D2F60C /* NavigationBarModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E420CD6257AFF3100D2F60C /* NavigationBarModifier.swift */; };
+		0E420CDF257B070D00D2F60C /* CuriosityCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E420CDE257B070D00D2F60C /* CuriosityCardView.swift */; };
+		0E420CE4257B074700D2F60C /* CuriositiesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E420CE3257B074700D2F60C /* CuriositiesView.swift */; };
+		0E877FC0257B0E5600638FEE /* CurriculumCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E877FBF257B0E5600638FEE /* CurriculumCardView.swift */; };
+		0E877FC5257B0F0000638FEE /* DescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E877FC4257B0F0000638FEE /* DescriptionView.swift */; };
+		0E877FCA257B0F2800638FEE /* LengthCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E877FC9257B0F2800638FEE /* LengthCardView.swift */; };
+		0E877FCF257B0F5500638FEE /* UniversitiesCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E877FCE257B0F5500638FEE /* UniversitiesCardView.swift */; };
+		0E877FD4257B110E00638FEE /* AboutCourseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E877FD3257B110E00638FEE /* AboutCourseView.swift */; };
+		0E877FDC257B169500638FEE /* AreasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E877FDB257B169500638FEE /* AreasView.swift */; };
+		0E877FE1257B16FE00638FEE /* AreaCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E877FE0257B16FE00638FEE /* AreaCardView.swift */; };
 		209DDEC5BCC3F3AD1B9BE436 /* Pods_AryaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E6B794D0916D91B53533909 /* Pods_AryaTests.framework */; };
+		222CC18D257E75D500E0A725 /* InitialScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222CC18C257E75D500E0A725 /* InitialScreen.swift */; };
+		222CC192257E75EA00E0A725 /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222CC191257E75E900E0A725 /* Onboarding.swift */; };
+		222CC197257E760700E0A725 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222CC196257E760700E0A725 /* PageViewController.swift */; };
+		222CC19C257E762100E0A725 /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222CC19B257E762100E0A725 /* PageControl.swift */; };
+		222CC1A1257E763800E0A725 /* OnboardingFinal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222CC1A0257E763800E0A725 /* OnboardingFinal.swift */; };
 		22B7FDC82576E19C00329493 /* ViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B7FDC72576E19C00329493 /* ViewRouter.swift */; };
 		22B7FDD02576E1F400329493 /* MotherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B7FDCF2576E1F400329493 /* MotherView.swift */; };
 		22D2C65B2576E3BE00F46CD1 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D2C65A2576E3BE00F46CD1 /* HomeView.swift */; };
@@ -34,10 +39,6 @@
 		22FB55DE256E88DC001A59D0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22FB55DD256E88DC001A59D0 /* Preview Assets.xcassets */; };
 		22FB55E9256E88DC001A59D0 /* AryaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FB55E8256E88DC001A59D0 /* AryaTests.swift */; };
 		22FB55F4256E88DC001A59D0 /* AryaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FB55F3256E88DC001A59D0 /* AryaUITests.swift */; };
-		22FB5611256E8B20001A59D0 /* Onboard1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FB5610256E8B20001A59D0 /* Onboard1.swift */; };
-		22FB5616256E8B76001A59D0 /* Onboard2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FB5615256E8B76001A59D0 /* Onboard2.swift */; };
-		22FB561B256E8BA3001A59D0 /* Onboard3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FB561A256E8BA3001A59D0 /* Onboard3.swift */; };
-		22FB5620256E8BB5001A59D0 /* Onboard4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FB561F256E8BB5001A59D0 /* Onboard4.swift */; };
 		2C6CFF8D2579682E0046AF5C /* PresentationScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6CFF8C2579682E0046AF5C /* PresentationScreen.swift */; };
 		93EB4820E87558DA3B6E0E5E /* Pods_Arya_AryaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBE402F2C92C54CEE006B39D /* Pods_Arya_AryaUITests.framework */; };
 		C4F2A4EA27EA635E0C84937B /* Pods_Arya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77C7CA0D48414DEB518B1611 /* Pods_Arya.framework */; };
@@ -63,23 +64,28 @@
 /* Begin PBXFileReference section */
 		0569A96CC19B3612D67E105E /* Pods-AryaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AryaTests.debug.xcconfig"; path = "Target Support Files/Pods-AryaTests/Pods-AryaTests.debug.xcconfig"; sourceTree = "<group>"; };
 		0815A94A642BB654C94258EE /* Pods-Arya-AryaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Arya-AryaUITests.release.xcconfig"; path = "Target Support Files/Pods-Arya-AryaUITests/Pods-Arya-AryaUITests.release.xcconfig"; sourceTree = "<group>"; };
-		0E420CDE257B070D00D2F60C /* CuriosityCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuriosityCardView.swift; sourceTree = "<group>"; };
-		0E420CE3257B074700D2F60C /* CuriositiesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuriositiesView.swift; sourceTree = "<group>"; };
-		0E877FDB257B169500638FEE /* AreasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreasView.swift; sourceTree = "<group>"; };
-		0E877FE0257B16FE00638FEE /* AreaCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreaCardView.swift; sourceTree = "<group>"; };
-		0E877FBF257B0E5600638FEE /* CurriculumCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurriculumCardView.swift; sourceTree = "<group>"; };
-		0E877FC4257B0F0000638FEE /* DescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionView.swift; sourceTree = "<group>"; };
-		0E877FC9257B0F2800638FEE /* LengthCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LengthCardView.swift; sourceTree = "<group>"; };
-		0E877FCE257B0F5500638FEE /* UniversitiesCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversitiesCardView.swift; sourceTree = "<group>"; };
-		0E877FD3257B110E00638FEE /* AboutCourseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutCourseView.swift; sourceTree = "<group>"; };
 		0E420CAE257AF53400D2F60C /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
 		0E420CB6257AF5A100D2F60C /* FavoritedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritedView.swift; sourceTree = "<group>"; };
 		0E420CC7257AFCB900D2F60C /* ProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderView.swift; sourceTree = "<group>"; };
 		0E420CCC257AFE4F00D2F60C /* MyJourneysView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyJourneysView.swift; sourceTree = "<group>"; };
 		0E420CD1257AFEFB00D2F60C /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		0E420CD6257AFF3100D2F60C /* NavigationBarModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarModifier.swift; sourceTree = "<group>"; };
+		0E420CDE257B070D00D2F60C /* CuriosityCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuriosityCardView.swift; sourceTree = "<group>"; };
+		0E420CE3257B074700D2F60C /* CuriositiesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuriositiesView.swift; sourceTree = "<group>"; };
+		0E877FBF257B0E5600638FEE /* CurriculumCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurriculumCardView.swift; sourceTree = "<group>"; };
+		0E877FC4257B0F0000638FEE /* DescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionView.swift; sourceTree = "<group>"; };
+		0E877FC9257B0F2800638FEE /* LengthCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LengthCardView.swift; sourceTree = "<group>"; };
+		0E877FCE257B0F5500638FEE /* UniversitiesCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversitiesCardView.swift; sourceTree = "<group>"; };
+		0E877FD3257B110E00638FEE /* AboutCourseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutCourseView.swift; sourceTree = "<group>"; };
+		0E877FDB257B169500638FEE /* AreasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreasView.swift; sourceTree = "<group>"; };
+		0E877FE0257B16FE00638FEE /* AreaCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreaCardView.swift; sourceTree = "<group>"; };
 		1654DF7451EC02E8CA0B5E8F /* Pods-Arya.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Arya.debug.xcconfig"; path = "Target Support Files/Pods-Arya/Pods-Arya.debug.xcconfig"; sourceTree = "<group>"; };
 		1E6B794D0916D91B53533909 /* Pods_AryaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AryaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		222CC18C257E75D500E0A725 /* InitialScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialScreen.swift; sourceTree = "<group>"; };
+		222CC191257E75E900E0A725 /* Onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
+		222CC196257E760700E0A725 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		222CC19B257E762100E0A725 /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
+		222CC1A0257E763800E0A725 /* OnboardingFinal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingFinal.swift; sourceTree = "<group>"; };
 		22B7FDC72576E19C00329493 /* ViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewRouter.swift; sourceTree = "<group>"; };
 		22B7FDCF2576E1F400329493 /* MotherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotherView.swift; sourceTree = "<group>"; };
 		22D2C65A2576E3BE00F46CD1 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -97,10 +103,6 @@
 		22FB55EF256E88DC001A59D0 /* AryaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AryaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		22FB55F3256E88DC001A59D0 /* AryaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AryaUITests.swift; sourceTree = "<group>"; };
 		22FB55F5256E88DC001A59D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		22FB5610256E8B20001A59D0 /* Onboard1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboard1.swift; sourceTree = "<group>"; };
-		22FB5615256E8B76001A59D0 /* Onboard2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboard2.swift; sourceTree = "<group>"; };
-		22FB561A256E8BA3001A59D0 /* Onboard3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboard3.swift; sourceTree = "<group>"; };
-		22FB561F256E8BB5001A59D0 /* Onboard4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboard4.swift; sourceTree = "<group>"; };
 		2C6CFF8C2579682E0046AF5C /* PresentationScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationScreen.swift; sourceTree = "<group>"; };
 		77C7CA0D48414DEB518B1611 /* Pods_Arya.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Arya.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACEF42E1B555007F71A2D5F3 /* Pods-AryaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AryaTests.release.xcconfig"; path = "Target Support Files/Pods-AryaTests/Pods-AryaTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -154,6 +156,18 @@
 				0E420CD6257AFF3100D2F60C /* NavigationBarModifier.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		222CC188257E757C00E0A725 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				222CC18C257E75D500E0A725 /* InitialScreen.swift */,
+				222CC191257E75E900E0A725 /* Onboarding.swift */,
+				222CC196257E760700E0A725 /* PageViewController.swift */,
+				222CC19B257E762100E0A725 /* PageControl.swift */,
+				222CC1A0257E763800E0A725 /* OnboardingFinal.swift */,
+			);
+			path = Onboarding;
 			sourceTree = "<group>";
 		};
 		22B7FDC32576E0C400329493 /* Class */ = {
@@ -233,11 +247,8 @@
 			isa = PBXGroup;
 			children = (
 				0E420CAD257AF51500D2F60C /* Supporting Views */,
+				222CC188257E757C00E0A725 /* Onboarding */,
 				22B7FDCF2576E1F400329493 /* MotherView.swift */,
-				22FB5610256E8B20001A59D0 /* Onboard1.swift */,
-				22FB5615256E8B76001A59D0 /* Onboard2.swift */,
-				22FB561A256E8BA3001A59D0 /* Onboard3.swift */,
-				22FB561F256E8BB5001A59D0 /* Onboard4.swift */,
 				22D2C65A2576E3BE00F46CD1 /* HomeView.swift */,
 				2C6CFF8C2579682E0046AF5C /* PresentationScreen.swift */,
 				0E420CDE257B070D00D2F60C /* CuriosityCardView.swift */,
@@ -496,7 +507,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				222CC18D257E75D500E0A725 /* InitialScreen.swift in Sources */,
 				22D2C6612576E52000F46CD1 /* AppDelegate.swift in Sources */,
+				222CC19C257E762100E0A725 /* PageControl.swift in Sources */,
 				0E877FC5257B0F0000638FEE /* DescriptionView.swift in Sources */,
 				22D2C6622576E52000F46CD1 /* SceneDelegate.swift in Sources */,
 				0E420CD7257AFF3100D2F60C /* NavigationBarModifier.swift in Sources */,
@@ -504,23 +517,22 @@
 				22D2C65B2576E3BE00F46CD1 /* HomeView.swift in Sources */,
 				0E877FCF257B0F5500638FEE /* UniversitiesCardView.swift in Sources */,
 				0E877FC0257B0E5600638FEE /* CurriculumCardView.swift in Sources */,
-				22FB5616256E8B76001A59D0 /* Onboard2.swift in Sources */,
 				0E877FDC257B169500638FEE /* AreasView.swift in Sources */,
 				0E420CB7257AF5A100D2F60C /* FavoritedView.swift in Sources */,
 				22B7FDC82576E19C00329493 /* ViewRouter.swift in Sources */,
 				0E420CC8257AFCB900D2F60C /* ProfileHeaderView.swift in Sources */,
 				22FB55D9256E88DB001A59D0 /* ContentView.swift in Sources */,
 				0E420CD2257AFEFB00D2F60C /* ProfileView.swift in Sources */,
-				22FB5611256E8B20001A59D0 /* Onboard1.swift in Sources */,
 				2C6CFF8D2579682E0046AF5C /* PresentationScreen.swift in Sources */,
 				22FB55D7256E88DB001A59D0 /* AryaApp.swift in Sources */,
 				0E877FCA257B0F2800638FEE /* LengthCardView.swift in Sources */,
 				22B7FDD02576E1F400329493 /* MotherView.swift in Sources */,
 				0E420CE4257B074700D2F60C /* CuriositiesView.swift in Sources */,
+				222CC1A1257E763800E0A725 /* OnboardingFinal.swift in Sources */,
 				0E877FE1257B16FE00638FEE /* AreaCardView.swift in Sources */,
-				22FB5620256E8BB5001A59D0 /* Onboard4.swift in Sources */,
 				0E877FD4257B110E00638FEE /* AboutCourseView.swift in Sources */,
-				22FB561B256E8BA3001A59D0 /* Onboard3.swift in Sources */,
+				222CC192257E75EA00E0A725 /* Onboarding.swift in Sources */,
+				222CC197257E760700E0A725 /* PageViewController.swift in Sources */,
 				0E420CDF257B070D00D2F60C /* CuriosityCardView.swift in Sources */,
 				0E420CCD257AFE4F00D2F60C /* MyJourneysView.swift in Sources */,
 			);
