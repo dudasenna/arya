@@ -13,8 +13,12 @@ struct MotherView : View {
     
     var body: some View {
         VStack {
-            if viewRouter.currentPage == "onboardingView" {
-                Onboard1()
+            if viewRouter.currentPage == "initialScreenView" {
+                InitialScreenView()
+            } else if viewRouter.currentPage == "onboardingView" {
+                OnboardingView()
+            } else if viewRouter.currentPage == "onboardingFinalView" {
+                OnboardingFinalView()
             } else if viewRouter.currentPage == "homeView" {
                 HomeView()
             }
