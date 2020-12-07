@@ -34,6 +34,9 @@
 		22D2C65B2576E3BE00F46CD1 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D2C65A2576E3BE00F46CD1 /* HomeView.swift */; };
 		22D2C6612576E52000F46CD1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D2C65F2576E52000F46CD1 /* AppDelegate.swift */; };
 		22D2C6622576E52000F46CD1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D2C6602576E52000F46CD1 /* SceneDelegate.swift */; };
+		22E9DD9B257E803B00B17145 /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E9DD9A257E803B00B17145 /* Course.swift */; };
+		22E9DDA4257E854300B17145 /* Quiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E9DDA3257E854300B17145 /* Quiz.swift */; };
+		22E9DDAC257E857A00B17145 /* QuizFinal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E9DDAB257E857A00B17145 /* QuizFinal.swift */; };
 		22FB55D7256E88DB001A59D0 /* AryaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FB55D6256E88DB001A59D0 /* AryaApp.swift */; };
 		22FB55D9256E88DB001A59D0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FB55D8256E88DB001A59D0 /* ContentView.swift */; };
 		22FB55DB256E88DC001A59D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22FB55DA256E88DC001A59D0 /* Assets.xcassets */; };
@@ -93,6 +96,9 @@
 		22D2C65A2576E3BE00F46CD1 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		22D2C65F2576E52000F46CD1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		22D2C6602576E52000F46CD1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		22E9DD9A257E803B00B17145 /* Course.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
+		22E9DDA3257E854300B17145 /* Quiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz.swift; sourceTree = "<group>"; };
+		22E9DDAB257E857A00B17145 /* QuizFinal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizFinal.swift; sourceTree = "<group>"; };
 		22FB55D3256E88DB001A59D0 /* Arya.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Arya.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22FB55D6256E88DB001A59D0 /* AryaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AryaApp.swift; sourceTree = "<group>"; };
 		22FB55D8256E88DB001A59D0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -180,6 +186,15 @@
 			path = Class;
 			sourceTree = "<group>";
 		};
+		22E9DDA2257E853700B17145 /* Quiz */ = {
+			isa = PBXGroup;
+			children = (
+				22E9DDA3257E854300B17145 /* Quiz.swift */,
+				22E9DDAB257E857A00B17145 /* QuizFinal.swift */,
+			);
+			path = Quiz;
+			sourceTree = "<group>";
+		};
 		22FB55CA256E88DB001A59D0 = {
 			isa = PBXGroup;
 			children = (
@@ -248,10 +263,12 @@
 		22FB560F256E8B0F001A59D0 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				22E9DDA2257E853700B17145 /* Quiz */,
 				0E420CAD257AF51500D2F60C /* Supporting Views */,
 				222CC188257E757C00E0A725 /* Onboarding */,
 				22B7FDCF2576E1F400329493 /* MotherView.swift */,
 				22D2C65A2576E3BE00F46CD1 /* HomeView.swift */,
+				22E9DD9A257E803B00B17145 /* Course.swift */,
 				2C6CFF8C2579682E0046AF5C /* PresentationScreen.swift */,
 				0E420CDE257B070D00D2F60C /* CuriosityCardView.swift */,
 				0E420CE3257B074700D2F60C /* CuriositiesView.swift */,
@@ -522,6 +539,7 @@
 				0E877FCF257B0F5500638FEE /* UniversitiesCardView.swift in Sources */,
 				0E877FC0257B0E5600638FEE /* CurriculumCardView.swift in Sources */,
 				0E877FDC257B169500638FEE /* AreasView.swift in Sources */,
+				22E9DD9B257E803B00B17145 /* Course.swift in Sources */,
 				0E420CB7257AF5A100D2F60C /* FavoritedView.swift in Sources */,
 				22B7FDC82576E19C00329493 /* ViewRouter.swift in Sources */,
 				0E420CC8257AFCB900D2F60C /* ProfileHeaderView.swift in Sources */,
@@ -538,6 +556,8 @@
 				222CC192257E75EA00E0A725 /* Onboarding.swift in Sources */,
 				222CC197257E760700E0A725 /* PageViewController.swift in Sources */,
 				0E420CDF257B070D00D2F60C /* CuriosityCardView.swift in Sources */,
+				22E9DDAC257E857A00B17145 /* QuizFinal.swift in Sources */,
+				22E9DDA4257E854300B17145 /* Quiz.swift in Sources */,
 				0E420CCD257AFE4F00D2F60C /* MyJourneysView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

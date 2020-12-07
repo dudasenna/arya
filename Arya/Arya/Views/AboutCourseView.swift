@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct AboutCourseView: View {
+    
+    @EnvironmentObject var viewRouter: ViewRouter
+
     var body: some View {
         VStack {
             // MARK: Header
@@ -26,7 +29,7 @@ struct AboutCourseView: View {
                 
                 // MARK: Exit Button
                 Button(action: {
-                    print("Exit button tapped!")
+                    self.viewRouter.currentPage = "courseView"
                 }) {
                     Image(systemName: "xmark")
                         .resizable()
