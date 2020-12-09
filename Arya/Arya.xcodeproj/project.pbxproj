@@ -29,6 +29,8 @@
 		222CC197257E760700E0A725 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222CC196257E760700E0A725 /* PageViewController.swift */; };
 		222CC19C257E762100E0A725 /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222CC19B257E762100E0A725 /* PageControl.swift */; };
 		222CC1A1257E763800E0A725 /* OnboardingFinal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222CC1A0257E763800E0A725 /* OnboardingFinal.swift */; };
+		2232104A2581641F0092B8E7 /* CommunitiesCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223210492581641F0092B8E7 /* CommunitiesCardView.swift */; };
+		2232104F2581649F0092B8E7 /* CommunitiesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2232104E2581649F0092B8E7 /* CommunitiesView.swift */; };
 		22B7FDC82576E19C00329493 /* ViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B7FDC72576E19C00329493 /* ViewRouter.swift */; };
 		22B7FDD02576E1F400329493 /* MotherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B7FDCF2576E1F400329493 /* MotherView.swift */; };
 		22D2C65B2576E3BE00F46CD1 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D2C65A2576E3BE00F46CD1 /* HomeView.swift */; };
@@ -91,6 +93,8 @@
 		222CC196257E760700E0A725 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		222CC19B257E762100E0A725 /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
 		222CC1A0257E763800E0A725 /* OnboardingFinal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingFinal.swift; sourceTree = "<group>"; };
+		223210492581641F0092B8E7 /* CommunitiesCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunitiesCardView.swift; sourceTree = "<group>"; };
+		2232104E2581649F0092B8E7 /* CommunitiesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunitiesView.swift; sourceTree = "<group>"; };
 		22B7FDC72576E19C00329493 /* ViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewRouter.swift; sourceTree = "<group>"; };
 		22B7FDCF2576E1F400329493 /* MotherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotherView.swift; sourceTree = "<group>"; };
 		22D2C65A2576E3BE00F46CD1 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -173,6 +177,7 @@
 				0E877FD3257B110E00638FEE /* AboutCourseView.swift */,
 				0E420CE3257B074700D2F60C /* CuriositiesView.swift */,
 				0E877FDB257B169500638FEE /* AreasView.swift */,
+				2232104E2581649F0092B8E7 /* CommunitiesView.swift */,
 				0EC511CF2581401F00361C9F /* Supporting Views */,
 			);
 			path = "Specific Course";
@@ -187,6 +192,7 @@
 				0E877FC9257B0F2800638FEE /* LengthCardView.swift */,
 				0E877FCE257B0F5500638FEE /* UniversitiesCardView.swift */,
 				0E420CDE257B070D00D2F60C /* CuriosityCardView.swift */,
+				223210492581641F0092B8E7 /* CommunitiesCardView.swift */,
 			);
 			path = "Supporting Views";
 			sourceTree = "<group>";
@@ -549,10 +555,12 @@
 				0E877FC5257B0F0000638FEE /* DescriptionView.swift in Sources */,
 				0EC5C61F257E7BEE00FD5638 /* TabBarView.swift in Sources */,
 				22D2C6622576E52000F46CD1 /* SceneDelegate.swift in Sources */,
+				2232104F2581649F0092B8E7 /* CommunitiesView.swift in Sources */,
 				0E420CD7257AFF3100D2F60C /* NavigationBarModifier.swift in Sources */,
 				0E420CAF257AF53400D2F60C /* FavoritesView.swift in Sources */,
 				22D2C65B2576E3BE00F46CD1 /* HomeView.swift in Sources */,
 				0E877FCF257B0F5500638FEE /* UniversitiesCardView.swift in Sources */,
+				2232104A2581641F0092B8E7 /* CommunitiesCardView.swift in Sources */,
 				0E877FC0257B0E5600638FEE /* CurriculumCardView.swift in Sources */,
 				0E877FDC257B169500638FEE /* AreasView.swift in Sources */,
 				22E9DD9B257E803B00B17145 /* Course.swift in Sources */,
