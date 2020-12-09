@@ -12,17 +12,19 @@ struct HomeView: View {
     @EnvironmentObject var viewRouter: ViewRouter
     
     var body: some View {
-        VStack(alignment: .center, spacing: nil, content: {
-            Text("Todos os cursos")
-            Button(action: {
-                self.viewRouter.currentPage = "courseView"
-            }, label: {
-                Text("Curso específico")
-                    .foregroundColor(Color.purple)
+        NavigationView {
+            VStack(alignment: .center, spacing: nil, content: {
+                Text("Todos os cursos")
+                NavigationLink(
+                    destination: CourseView()) {
+                    VStack {
+                    Text("Curso específico")
+                        .foregroundColor(Color.purple)
+                    }
+                }
+                .padding(.vertical)
             })
-            .padding(.vertical)
-        })
-        
+        }.navigationBarColor(backgroundColor: .clear, tintColor: .orange)
     }
 }
 
