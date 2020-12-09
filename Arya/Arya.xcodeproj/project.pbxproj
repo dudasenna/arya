@@ -22,6 +22,9 @@
 		0E877FD4257B110E00638FEE /* AboutCourseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E877FD3257B110E00638FEE /* AboutCourseView.swift */; };
 		0E877FDC257B169500638FEE /* AreasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E877FDB257B169500638FEE /* AreasView.swift */; };
 		0E877FE1257B16FE00638FEE /* AreaCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E877FE0257B16FE00638FEE /* AreaCardView.swift */; };
+		0EC511E02581551C00361C9F /* WomenCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC511DF2581551C00361C9F /* WomenCardView.swift */; };
+		0EC511E52581571300361C9F /* WomenPastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC511E42581571300361C9F /* WomenPastView.swift */; };
+		0EC511EA2581572400361C9F /* WomenNowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC511E92581572400361C9F /* WomenNowView.swift */; };
 		0EC5C61F257E7BEE00FD5638 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC5C61E257E7BEE00FD5638 /* TabBarView.swift */; };
 		209DDEC5BCC3F3AD1B9BE436 /* Pods_AryaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E6B794D0916D91B53533909 /* Pods_AryaTests.framework */; };
 		222CC18D257E75D500E0A725 /* InitialScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222CC18C257E75D500E0A725 /* InitialScreen.swift */; };
@@ -83,6 +86,9 @@
 		0E877FD3257B110E00638FEE /* AboutCourseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutCourseView.swift; sourceTree = "<group>"; };
 		0E877FDB257B169500638FEE /* AreasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreasView.swift; sourceTree = "<group>"; };
 		0E877FE0257B16FE00638FEE /* AreaCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreaCardView.swift; sourceTree = "<group>"; };
+		0EC511DF2581551C00361C9F /* WomenCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WomenCardView.swift; sourceTree = "<group>"; };
+		0EC511E42581571300361C9F /* WomenPastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WomenPastView.swift; sourceTree = "<group>"; };
+		0EC511E92581572400361C9F /* WomenNowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WomenNowView.swift; sourceTree = "<group>"; };
 		0EC5C61E257E7BEE00FD5638 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
 		1654DF7451EC02E8CA0B5E8F /* Pods-Arya.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Arya.debug.xcconfig"; path = "Target Support Files/Pods-Arya/Pods-Arya.debug.xcconfig"; sourceTree = "<group>"; };
 		1E6B794D0916D91B53533909 /* Pods_AryaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AryaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -173,6 +179,8 @@
 				0E877FD3257B110E00638FEE /* AboutCourseView.swift */,
 				0E420CE3257B074700D2F60C /* CuriositiesView.swift */,
 				0E877FDB257B169500638FEE /* AreasView.swift */,
+				0EC511E42581571300361C9F /* WomenPastView.swift */,
+				0EC511E92581572400361C9F /* WomenNowView.swift */,
 				0EC511CF2581401F00361C9F /* Supporting Views */,
 			);
 			path = "Specific Course";
@@ -187,6 +195,7 @@
 				0E877FC9257B0F2800638FEE /* LengthCardView.swift */,
 				0E877FCE257B0F5500638FEE /* UniversitiesCardView.swift */,
 				0E420CDE257B070D00D2F60C /* CuriosityCardView.swift */,
+				0EC511DF2581551C00361C9F /* WomenCardView.swift */,
 			);
 			path = "Supporting Views";
 			sourceTree = "<group>";
@@ -548,7 +557,9 @@
 				222CC19C257E762100E0A725 /* PageControl.swift in Sources */,
 				0E877FC5257B0F0000638FEE /* DescriptionView.swift in Sources */,
 				0EC5C61F257E7BEE00FD5638 /* TabBarView.swift in Sources */,
+				0EC511E52581571300361C9F /* WomenPastView.swift in Sources */,
 				22D2C6622576E52000F46CD1 /* SceneDelegate.swift in Sources */,
+				0EC511EA2581572400361C9F /* WomenNowView.swift in Sources */,
 				0E420CD7257AFF3100D2F60C /* NavigationBarModifier.swift in Sources */,
 				0E420CAF257AF53400D2F60C /* FavoritesView.swift in Sources */,
 				22D2C65B2576E3BE00F46CD1 /* HomeView.swift in Sources */,
@@ -568,6 +579,7 @@
 				0E420CE4257B074700D2F60C /* CuriositiesView.swift in Sources */,
 				222CC1A1257E763800E0A725 /* OnboardingFinal.swift in Sources */,
 				0E877FE1257B16FE00638FEE /* AreaCardView.swift in Sources */,
+				0EC511E02581551C00361C9F /* WomenCardView.swift in Sources */,
 				0E877FD4257B110E00638FEE /* AboutCourseView.swift in Sources */,
 				222CC192257E75EA00E0A725 /* Onboarding.swift in Sources */,
 				222CC197257E760700E0A725 /* PageViewController.swift in Sources */,
