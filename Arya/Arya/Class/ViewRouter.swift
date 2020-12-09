@@ -15,7 +15,7 @@ class ViewRouter: ObservableObject {
             UserDefaults.standard.set(true, forKey: "didLaunchBefore")
             currentPage = "initialScreenView"
         } else {
-            currentPage = "homeView"
+            currentPage = "tabBarView"
         }
     }
     
