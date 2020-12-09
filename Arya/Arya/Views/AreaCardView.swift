@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct AreaCardView: View {
+
+    @State var heartShape = "heart"
+
     var body: some View {
         VStack {
             HStack{
@@ -16,8 +19,13 @@ struct AreaCardView: View {
                 // MARK: Heart Button
                 Button(action: {
                     print("Heart button tapped!")
+                    if (heartShape == "heart") {
+                        self.heartShape = "heart.fill"
+                    } else {
+                        heartShape = "heart"
+                    }
                 }) {
-                    Image(systemName: "heart")
+                    Image(systemName: heartShape)
                         .resizable()
                         .frame(width: 30, height: 27, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                         .foregroundColor(.purple)
