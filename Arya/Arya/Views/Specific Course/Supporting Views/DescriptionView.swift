@@ -16,7 +16,7 @@ struct DescriptionView: View {
                     title: { Text("Nome do Curso")
                         .font(.title)
                         .fontWeight(.heavy)
-                        .foregroundColor(.orange)
+                        .foregroundColor(.purple)
                     },
                     icon: {})
                     .padding(.horizontal)

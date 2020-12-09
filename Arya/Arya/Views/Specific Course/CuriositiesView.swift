@@ -12,33 +12,7 @@ struct CuriositiesView: View {
     @EnvironmentObject var viewRouter: ViewRouter
 
     var body: some View {
-            // MARK: Header
             VStack {
-                HStack {
-                    
-                    // MARK: Title
-                    Label(
-                        title: { Text("Curiosidades")
-                            .font(.largeTitle)
-                            .fontWeight(.bold)
-                            .foregroundColor(.purple)
-                        },
-                        icon: {})
-                    
-                    Spacer()
-                    
-                    // MARK: Heart Button
-                    Button(action: {
-                        self.viewRouter.currentPage = "courseView"
-                    }) {
-                        Image(systemName: "xmark")
-                            .resizable()
-                            .frame(width: 20, height: 20, alignment: .center)
-                            .foregroundColor(.purple)
-                    }
-                }
-                .padding()
-                .offset(y: 20)
             // MARK: ScrollView with Cards
             ScrollView(.vertical,  showsIndicators: false) {
                 VStack {
@@ -54,9 +28,8 @@ struct CuriositiesView: View {
                             )
                     }
                 }
-            }.frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height - 100)
-            .edgesIgnoringSafeArea(.bottom)
-            }
+             }
+            }.navigationBarTitle("Curiosidades", displayMode: .large)
     }
 }
 

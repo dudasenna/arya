@@ -12,32 +12,6 @@ struct WomenPastView: View {
     @EnvironmentObject var viewRouter: ViewRouter
     var body: some View {
         VStack {
-            HStack {
-                
-                // MARK: Title
-                Label(
-                    title: { Text("Mulheres \nque fizeram")
-                        .font(.largeTitle)
-                        .fontWeight(.bold)
-                        .multilineTextAlignment(.leading)
-                        .foregroundColor(.purple)
-                    },
-                    icon: {})
-                
-                Spacer()
-                
-                // MARK: Heart Button
-                Button(action: {
-                    self.viewRouter.currentPage = "courseView"
-                }) {
-                    Image(systemName: "xmark")
-                        .resizable()
-                        .frame(width: 20, height: 20, alignment: .center)
-                        .foregroundColor(.purple)
-                }
-            }
-            .padding()
-            .offset(y: 20)
             
             ScrollView(.horizontal, showsIndicators: false) {
                 HStack(alignment: .center, spacing: 250) {
@@ -47,7 +21,7 @@ struct WomenPastView: View {
                     Spacer()
                 }.padding(.horizontal, (UIScreen.main.bounds.width/2) - 125)
             }
-        }
+        }.navigationBarTitle("Mulheres que fizeram", displayMode: .large)
     }
 }
 

@@ -13,32 +13,6 @@ struct AboutCourseView: View {
 
     var body: some View {
         VStack {
-            // MARK: Header
-            HStack {
-                
-                // MARK: Title
-                Label(
-                    title: { Text("Como é o curso")
-                        .font(.largeTitle)
-                        .fontWeight(.bold)
-                        .foregroundColor(.purple)
-                    },
-                    icon: {})
-                
-                Spacer()
-                
-                // MARK: Exit Button
-                Button(action: {
-                    self.viewRouter.currentPage = "courseView"
-                }) {
-                    Image(systemName: "xmark")
-                        .resizable()
-                        .frame(width: 20, height: 20, alignment: .center)
-                        .foregroundColor(.purple)
-                }
-            }
-            .padding()
-            .padding(.bottom, 5)
             
             // MARK: Body
             DescriptionView()
@@ -52,7 +26,7 @@ struct AboutCourseView: View {
             .frame(width: UIScreen.main.bounds.width - 50)
             
             Spacer()
-        }
+        }.navigationBarTitle("Como é o curso", displayMode: .large)
     }
 }
 
