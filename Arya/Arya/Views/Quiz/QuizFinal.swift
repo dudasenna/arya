@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct QuizFinalView: View {
+    
+    @EnvironmentObject var viewRouter: ViewRouter
+
     var body: some View {
         VStack(alignment: .leading, spacing: /*@START_MENU_TOKEN@*/nil/*@END_MENU_TOKEN@*/, content: {
             HStack(alignment: .center, spacing: nil, content: {
@@ -73,6 +76,7 @@ struct QuizFinalView: View {
                     .overlay(
                         Button(action:{
                             withAnimation {
+                                self.viewRouter.currentPage = "tabBarView"
                             }
                         }, label: {
                             Text("Concluir")

@@ -171,9 +171,9 @@
 			children = (
 				222CC18C257E75D500E0A725 /* InitialScreen.swift */,
 				222CC191257E75E900E0A725 /* Onboarding.swift */,
+				222CC1A0257E763800E0A725 /* OnboardingFinal.swift */,
 				222CC196257E760700E0A725 /* PageViewController.swift */,
 				222CC19B257E762100E0A725 /* PageControl.swift */,
-				222CC1A0257E763800E0A725 /* OnboardingFinal.swift */,
 			);
 			path = Onboarding;
 			sourceTree = "<group>";

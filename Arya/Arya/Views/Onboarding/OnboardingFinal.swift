@@ -58,7 +58,7 @@ struct OnboardingFinalView: View {
                 .overlay(
                     Button(action:{
                         withAnimation {
-                            self.viewRouter.currentPage = "homeView"
+                            self.viewRouter.currentPage = "tabBarView"
                             print(name)
                         }
                     }, label: {

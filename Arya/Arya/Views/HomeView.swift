@@ -18,9 +18,11 @@ struct HomeView: View {
                 self.viewRouter.currentPage = "courseView"
             }, label: {
                 Text("Curso específico")
+                    .foregroundColor(Color.purple)
             })
             .padding(.vertical)
         })
+        
     }
 }
 

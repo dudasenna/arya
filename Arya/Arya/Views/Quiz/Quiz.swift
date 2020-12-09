@@ -18,6 +18,7 @@ struct QuizView: View {
                 self.viewRouter.currentPage = "quizFinalView"
             }, label: {
                 Text("Quiz Final")
+                    .foregroundColor(Color.purple)
             })
         })
     }
