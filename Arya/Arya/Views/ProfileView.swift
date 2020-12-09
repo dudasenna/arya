@@ -13,15 +13,16 @@ struct ProfileView: View {
                     ScrollView(.vertical) {
                         VStack {
                             ProfileHeaderView()
+                                .padding(.bottom, 40)
                             MyJourneysView()
                                 .frame(width: UIScreen.main.bounds.width)
                             FavoritesView()
                                 .frame(width: UIScreen.main.bounds.width, height: 350)
+                                
                         }
                     }
                     .frame(width: UIScreen.main.bounds.width - 50)
-                    .offset(y: 40)
-                    .edgesIgnoringSafeArea(.all)
+                    .edgesIgnoringSafeArea(.top)
                     .navigationBarHidden(true)
                 }
                 .navigationBarColor(backgroundColor: .clear, tintColor: .orange)

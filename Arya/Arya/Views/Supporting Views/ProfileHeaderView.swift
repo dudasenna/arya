@@ -47,7 +47,7 @@ struct ProfileHeaderView: View {
                 //
                 Spacer()
             }.padding(.top, 40)
-        }
+        }.offset(y: 20)
     }
 }
 
