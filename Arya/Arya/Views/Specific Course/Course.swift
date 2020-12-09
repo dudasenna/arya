@@ -12,7 +12,6 @@ struct CourseView: View {
     @EnvironmentObject var viewRouter: ViewRouter
     
     var body: some View {
-
             VStack(alignment: .center, spacing: nil) {
                 // MARK: ScrollView
                 ScrollView(.horizontal, showsIndicators: false) {
