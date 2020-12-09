@@ -33,6 +33,8 @@ struct MotherView : View {
                 QuizView()
             } else if viewRouter.currentPage == "quizFinalView" {
                 QuizFinalView()
+            } else if viewRouter.currentPage == "tabBarView" {
+                TabBarView()
             } else {
                 HomeView()
             }

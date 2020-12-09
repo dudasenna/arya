@@ -106,9 +106,7 @@ struct QuizFinalView: View {
 //                Spacer()
 //            })
 //            .padding(.bottom, 30.0)
-            
-            TabBarView()
-            
+                        
         })
         .overlay(
             Circle()
