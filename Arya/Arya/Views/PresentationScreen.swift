@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct PresentationScreen: View {
+struct PresentationScreenView: View {
     
     var body: some View {
         
@@ -103,9 +103,9 @@ struct PresentationScreen: View {
             }
         }
     }
-    struct HomeView_Previews: PreviewProvider {
+    struct PresentationScreenView_Previews: PreviewProvider {
         static var previews: some View {
-            HomeView()
+            PresentationScreenView()
         }
     }
 }
