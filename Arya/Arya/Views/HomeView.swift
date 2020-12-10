@@ -13,17 +13,7 @@ struct HomeView: View {
     
     var body: some View {
         NavigationView {
-            VStack(alignment: .center, spacing: nil, content: {
-                Text("Todos os cursos")
-                NavigationLink(
-                    destination: CourseView()) {
-                    VStack {
-                    Text("Curso específico")
-                        .foregroundColor(Color.purple)
-                    }
-                }
-                .padding(.vertical)
-            })
+            HomeScreen()
         }.navigationBarColor(backgroundColor: .clear, tintColor: .orange)
     }
 }

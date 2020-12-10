@@ -21,6 +21,7 @@ struct NavigationBarColor: ViewModifier {
     UINavigationBar.appearance().scrollEdgeAppearance = coloredAppearance
     UINavigationBar.appearance().compactAppearance = coloredAppearance
     UINavigationBar.appearance().tintColor = tintColor
+    UINavigationBar.appearance().standardAppearance.shadowColor = .clear
   }
 
   func body(content: Content) -> some View {
