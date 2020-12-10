@@ -13,7 +13,7 @@ struct DescriptionView: View {
             // MARK: Title
             HStack {
                 Label(
-                    title: { Text("Nome do Curso")
+                    title: { Text("Ciências da Computação")
                         .font(.title)
                         .fontWeight(.heavy)
                         .foregroundColor(.purple)
@@ -26,7 +26,7 @@ struct DescriptionView: View {
             
             // MARK: Description of course
             HStack {
-                Text("Descrição sobre o curso")
+                Text("Trabalha, essencialmente,  na elaboração de programas de informática, para computadores ou dispositivos móveis, como celulares e tablets. ")
                     .font(.body)
                     .fontWeight(.medium)
                     .foregroundColor(Color(.darkGray))

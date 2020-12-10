@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct UniversitiesCardView: View {
+    var universities: [String] = ["UFPE", "Unesp", "UFRPE", "UFC"]
     var body: some View {
         VStack {
             // MARK: Title
@@ -27,8 +28,8 @@ struct UniversitiesCardView: View {
             HStack {
                 ScrollView(.vertical,  showsIndicators: false) {
                     VStack {
-                        ForEach(0..<10) {_ in
-                            Text("UFPE")
+                        ForEach(universities, id: \.self) {universities in
+                            Text("\(universities.self)")
                                 .font(.body)
                                 .fontWeight(.medium)
                                 .foregroundColor(Color(.darkGray))
