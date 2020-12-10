@@ -7,13 +7,13 @@
 
 import SwiftUI
 
+var stars = 0
+
 struct QuizView: View {
     
     @EnvironmentObject var viewRouter: ViewRouter
     
     @State var currentPageIndex = 0
-    
-    @State var stars = 0
     
     @State private var scaleValue = CGFloat(1)
 

@@ -46,15 +46,33 @@ struct QuizFinalView: View {
                                 .padding(.top)
                             Spacer()
                             HStack(alignment: .center, spacing: nil, content: {
-                                Image(systemName: "star.fill")
-                                    .foregroundColor(.orange)
-                                    .font(Font.system(.largeTitle))
-                                Image(systemName: "star.fill")
-                                    .foregroundColor(.orange)
-                                    .font(Font.system(.largeTitle))
-                                Image(systemName: "star")
-                                    .foregroundColor(.orange)
-                                    .font(Font.system(.largeTitle))
+                                if (stars > 0) {
+                                    Image(systemName: "star.fill")
+                                        .foregroundColor(.orange)
+                                        .font(Font.system(.largeTitle))
+                                } else {
+                                    Image(systemName: "star")
+                                        .foregroundColor(.orange)
+                                        .font(Font.system(.largeTitle))
+                                }
+                                if (stars > 1) {
+                                    Image(systemName: "star.fill")
+                                        .foregroundColor(.orange)
+                                        .font(Font.system(.largeTitle))
+                                } else {
+                                    Image(systemName: "star")
+                                        .foregroundColor(.orange)
+                                        .font(Font.system(.largeTitle))
+                                }
+                                if (stars > 2) {
+                                    Image(systemName: "star.fill")
+                                        .foregroundColor(.orange)
+                                        .font(Font.system(.largeTitle))
+                                } else {
+                                    Image(systemName: "star")
+                                        .foregroundColor(.orange)
+                                        .font(Font.system(.largeTitle))
+                                }
                             })
                             Spacer()
                             Text("Volte amanhã para mais perguntas")
@@ -77,6 +95,7 @@ struct QuizFinalView: View {
                         Button(action:{
                             withAnimation {
                                 self.viewRouter.currentPage = "tabBarView"
+                                stars = 0
                             }
                         }, label: {
                             Text("Concluir")
