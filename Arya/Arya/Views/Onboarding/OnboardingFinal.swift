@@ -7,6 +7,8 @@
 
 import SwiftUI
 
+var namePassar: String = "Maria"
+
 struct OnboardingFinalView: View {
 
     @State var name: String = ""
@@ -20,7 +22,6 @@ struct OnboardingFinalView: View {
             HStack(alignment: .center) {
                 Button(action:{
                     viewRouter.currentPage = "onboardingView"
-                    
                 }, label: {
                     Image(systemName: "chevron.left").foregroundColor(.purple)
                         .padding(.leading, 3.0)
@@ -58,8 +59,8 @@ struct OnboardingFinalView: View {
                 .overlay(
                     Button(action:{
                         withAnimation {
+                            namePassar = name
                             self.viewRouter.currentPage = "tabBarView"
-                            print(name)
                         }
                     }, label: {
                         Text("Vamos começar")
