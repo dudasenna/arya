@@ -25,7 +25,7 @@ struct ProfileView: View {
                     .edgesIgnoringSafeArea(.top)
                     .navigationBarHidden(true)
                 }
-                .navigationBarColor(backgroundColor: .clear, tintColor: .orange)
+                .navigationBarColor(backgroundColor: .white, tintColor: .orange)
     }
 }
 
