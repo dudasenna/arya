@@ -11,6 +11,7 @@ struct HomeView: View {
     @EnvironmentObject var viewRouter: ViewRouter
     var body: some View {
         NavigationView {
+            HomeScreen()
             VStack(alignment: .center, spacing: nil, content: {
                 Text("Todos os cursos")
                 Text("\(namePassar)")

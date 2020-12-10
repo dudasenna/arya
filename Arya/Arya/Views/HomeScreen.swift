@@ -9,26 +9,29 @@ import SwiftUI
 
 struct HomeScreen: View {
     var body: some View {
-        HStack(spacing: 1){
+        HStack(spacing: 1) {
             VStack() {
-                VStack(alignment:  .leading){
-                    Text("Olá, Ana")
-                        .font(.title)
-                        .foregroundColor(.purple
-                        )
-                        .fontWeight(.light)
-                        .padding(.top, 290)
-                        .padding(.leading, -70)
-                    Text("Qual curso você quer explorar?")
-                        .font(.subheadline)
-                        .foregroundColor(.orange)
-                        .padding(.top, -4)
-                        .padding(.leading, -68)
+                HStack {
+                    VStack(alignment:  .leading) {
+                        Text("Olá, Ana")
+                            .font(.title)
+                            .foregroundColor(.purple
+                            )
+                            .fontWeight(.light)
+                            .padding(.top, 290)
+                            .padding(.leading)
+                        Text("Qual curso você quer explorar?")
+                            .font(.subheadline)
+                            .foregroundColor(.orange)
+                            .padding(.top, -4)
+                            .padding(.leading)
+                    }
+                    Spacer()
                 }
                 Spacer()
                     .frame(height: 30)
                 ScrollView(.horizontal, showsIndicators: false) {
-                    VStack{
+                    VStack {
                         NavigationLink(
                             destination: CourseView()) {
                             Text("Ciência da\n"+"Computação")
@@ -78,7 +81,7 @@ struct HomeScreen: View {
                                 .cornerRadius(100)
                         }
                         .offset(x: 273, y: -410)
-
+                        
                         NavigationLink(
                             destination: CourseView()) {
                             Text("Sistema da\n"+"Informação")
@@ -96,45 +99,42 @@ struct HomeScreen: View {
                             .fill(Color.purple)
                             .shadow(radius: 4)
                             .frame(width: 125, height: 125)
-                            .offset(x:-75 , y: -220)
+                            .offset(x: -75, y: -220)
                         Circle()
                             .fill(Color.purple)
                             .shadow(radius: 4)
                             .frame(width: 25, height: 25)
-                            .offset(x:125 , y: -290)
+                            .offset(x: 125, y: -290)
                         Circle()
                             .fill(Color.purple)
                             .shadow(radius: 4)
                             .frame(width: 25, height: 25)
-                            .offset(x: -36 , y: -580)
+                            .offset(x: -36, y: -580)
                         Circle()
                             .fill(Color.purple)
                             .shadow(radius: 4)
                             .frame(width: 25, height: 25)
-                            .offset(x:285 , y: -690)
+                            .offset(x: 285, y: -690)
                         Circle()
                             .fill(Color.purple)
                             .shadow(radius: 4)
                             .frame(width: 25, height: 25)
-                            .offset(x:90 , y: -910)
+                            .offset(x: 90, y: -910)
+
 
                     }
-                    
-
-                    
+                    .frame(minWidth: 420, idealWidth: 520, maxWidth: .infinity,
+                           minHeight: 1050, idealHeight: 1200, maxHeight: .infinity, alignment: .leading)
                 }
-                
-                
+
             }
-              
         }
-        
-    
     }
 }
 
 struct HomeScreen_Previews: PreviewProvider {
     static var previews: some View {
         HomeScreen()
+            .frame(width: 0.0)
     }
 }
