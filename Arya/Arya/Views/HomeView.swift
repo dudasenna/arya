@@ -8,13 +8,12 @@
 import SwiftUI
 
 struct HomeView: View {
-    
     @EnvironmentObject var viewRouter: ViewRouter
-    
     var body: some View {
         NavigationView {
             VStack(alignment: .center, spacing: nil, content: {
                 Text("Todos os cursos")
+                Text("\(namePassar)")
                 NavigationLink(
                     destination: CourseView()) {
                     VStack {
@@ -28,8 +27,8 @@ struct HomeView: View {
     }
 }
 
-struct HomeView_Previews: PreviewProvider {
-    static var previews: some View {
-        HomeView()
-    }
-}
+//struct HomeView_Previews: PreviewProvider {
+//    static var previews: some View {
+////        HomeView()
+//    }
+//}
