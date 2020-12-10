@@ -18,32 +18,6 @@ struct CommunitiesView: View {
     ]
     var body: some View {
         VStack {
-            // MARK: Header
-            HStack {
-                
-                // MARK: Title
-                Label(
-                    title: { Text("Comunidades")
-                        .font(.largeTitle)
-                        .fontWeight(.bold)
-                        .foregroundColor(.purple)
-                    },
-                    icon: {})
-                
-                Spacer()
-                
-                // MARK: Exit Button
-                Button(action: {
-                    self.viewRouter.currentPage = "courseView"
-                }) {
-                    Image(systemName: "xmark")
-                        .resizable()
-                        .frame(width: 20, height: 20, alignment: .center)
-                        .foregroundColor(.purple)
-                }
-            }
-            .padding()
-            .padding(.bottom, 5)
             ScrollView(.vertical) {
                 LazyVGrid(columns: gridLayout, spacing: 20) {
                     ForEach(data, id: \.self) { item in
@@ -51,8 +25,8 @@ struct CommunitiesView: View {
                             .padding(.all)
                     }
                 }
-            }.frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height - 200)
-            .edgesIgnoringSafeArea(.bottom)
+            }
+            .navigationBarTitle("Comunidades", displayMode: .large)
         }
     }
 }

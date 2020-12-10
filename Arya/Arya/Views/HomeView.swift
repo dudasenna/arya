@@ -8,18 +8,28 @@
 import SwiftUI
 
 struct HomeView: View {
-    
     @EnvironmentObject var viewRouter: ViewRouter
-    
     var body: some View {
         NavigationView {
             HomeScreen()
+            VStack(alignment: .center, spacing: nil, content: {
+                Text("Todos os cursos")
+                Text("\(namePassar)")
+                NavigationLink(
+                    destination: CourseView()) {
+                    VStack {
+                    Text("Curso específico")
+                        .foregroundColor(Color.purple)
+                    }
+                }
+                .padding(.vertical)
+            })
         }.navigationBarColor(backgroundColor: .clear, tintColor: .orange)
     }
 }
 
-struct HomeView_Previews: PreviewProvider {
-    static var previews: some View {
-        HomeView()
-    }
-}
+//struct HomeView_Previews: PreviewProvider {
+//    static var previews: some View {
+////        HomeView()
+//    }
+//}

@@ -13,12 +13,18 @@ struct MotherView : View {
     
     var body: some View {
         VStack {
-            if viewRouter.currentPage == "initialScreenView" {
+            if viewRouter.currentPage == "tabBarView" {
+                TabBarView()
+            } else if viewRouter.currentPage == "initialScreenView" {
                 InitialScreenView()
             } else if viewRouter.currentPage == "onboardingView" {
                 OnboardingView()
             } else if viewRouter.currentPage == "onboardingFinalView" {
                 OnboardingFinalView()
+            } else if viewRouter.currentPage == "quizView" {
+                QuizView()
+            } else if viewRouter.currentPage == "quizFinalView" {
+                QuizFinalView()
             } else if viewRouter.currentPage == "homeView" {
                 HomeView()
             } else if viewRouter.currentPage == "courseView" {
@@ -29,14 +35,8 @@ struct MotherView : View {
                 AreasView()
             } else if viewRouter.currentPage == "aboutCourseView" {
                 AboutCourseView()
-            } else if viewRouter.currentPage == "quizView" {
-                QuizView()
-            } else if viewRouter.currentPage == "quizFinalView" {
-                QuizFinalView()
-            } else if viewRouter.currentPage == "tabBarView" {
-                TabBarView()
             } else {
-                HomeView()
+                TabBarView()
             }
         }
     }
