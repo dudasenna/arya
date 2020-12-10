@@ -36,7 +36,7 @@ struct MotherView : View {
             } else if viewRouter.currentPage == "tabBarView" {
                 TabBarView()
             } else {
-                HomeView()
+                TabBarView()
             }
         }
     }
