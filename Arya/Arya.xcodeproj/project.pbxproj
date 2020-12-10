@@ -48,6 +48,7 @@
 		22FB55DE256E88DC001A59D0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22FB55DD256E88DC001A59D0 /* Preview Assets.xcassets */; };
 		22FB55E9256E88DC001A59D0 /* AryaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FB55E8256E88DC001A59D0 /* AryaTests.swift */; };
 		22FB55F4256E88DC001A59D0 /* AryaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FB55F3256E88DC001A59D0 /* AryaUITests.swift */; };
+		2C47B137258256450047EED5 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C47B136258256450047EED5 /* HomeScreen.swift */; };
 		2C6CFF8D2579682E0046AF5C /* PresentationScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6CFF8C2579682E0046AF5C /* PresentationScreen.swift */; };
 		93EB4820E87558DA3B6E0E5E /* Pods_Arya_AryaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBE402F2C92C54CEE006B39D /* Pods_Arya_AryaUITests.framework */; };
 		C4F2A4EA27EA635E0C84937B /* Pods_Arya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77C7CA0D48414DEB518B1611 /* Pods_Arya.framework */; };
@@ -121,6 +122,7 @@
 		22FB55EF256E88DC001A59D0 /* AryaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AryaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		22FB55F3256E88DC001A59D0 /* AryaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AryaUITests.swift; sourceTree = "<group>"; };
 		22FB55F5256E88DC001A59D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C47B136258256450047EED5 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
 		2C6CFF8C2579682E0046AF5C /* PresentationScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationScreen.swift; sourceTree = "<group>"; };
 		77C7CA0D48414DEB518B1611 /* Pods_Arya.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Arya.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACEF42E1B555007F71A2D5F3 /* Pods-AryaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AryaTests.release.xcconfig"; path = "Target Support Files/Pods-AryaTests/Pods-AryaTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -309,6 +311,7 @@
 				222CC188257E757C00E0A725 /* Onboarding */,
 				22B7FDCF2576E1F400329493 /* MotherView.swift */,
 				22D2C65A2576E3BE00F46CD1 /* HomeView.swift */,
+				2C47B136258256450047EED5 /* HomeScreen.swift */,
 				2C6CFF8C2579682E0046AF5C /* PresentationScreen.swift */,
 				0E420CD1257AFEFB00D2F60C /* ProfileView.swift */,
 				0EC5C61E257E7BEE00FD5638 /* TabBarView.swift */,
@@ -586,6 +589,7 @@
 				22B7FDD02576E1F400329493 /* MotherView.swift in Sources */,
 				0E420CE4257B074700D2F60C /* CuriositiesView.swift in Sources */,
 				222CC1A1257E763800E0A725 /* OnboardingFinal.swift in Sources */,
+				2C47B137258256450047EED5 /* HomeScreen.swift in Sources */,
 				0E877FE1257B16FE00638FEE /* AreaCardView.swift in Sources */,
 				0EC511E02581551C00361C9F /* WomenCardView.swift in Sources */,
 				0E877FD4257B110E00638FEE /* AboutCourseView.swift in Sources */,
