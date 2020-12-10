@@ -12,18 +12,18 @@ struct HomeView: View {
     var body: some View {
         NavigationView {
             HomeScreen()
-            VStack(alignment: .center, spacing: nil, content: {
-                Text("Todos os cursos")
-                Text("\(namePassar)")
-                NavigationLink(
-                    destination: CourseView()) {
-                    VStack {
-                    Text("Curso específico")
-                        .foregroundColor(Color.purple)
-                    }
-                }
-                .padding(.vertical)
-            })
+//            VStack(alignment: .center, spacing: nil, content: {
+//                Text("Todos os cursos")
+//                Text("\(namePassar)")
+//                NavigationLink(
+//                    destination: CourseView()) {
+//                    VStack {
+//                    Text("Curso específico")
+//                        .foregroundColor(Color.purple)
+//                    }
+//                }
+//                .padding(.vertical)
+//            })
         }.navigationBarColor(backgroundColor: .clear, tintColor: .orange)
     }
 }
