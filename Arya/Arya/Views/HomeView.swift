@@ -25,6 +25,7 @@ struct HomeView: View {
                 .padding(.vertical)
             })
         }.navigationBarColor(backgroundColor: .clear, tintColor: .orange)
+        .navigationBarTitle("", displayMode: .inline)
     }
 }
 
