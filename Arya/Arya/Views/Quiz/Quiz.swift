@@ -181,24 +181,6 @@ struct QuizView: View {
                     .frame(width: UIScreen.main.bounds.width/1.3)
                 )
             Spacer()
-//            Text(titles[currentPageIndex])
-//                .font(.largeTitle)
-//                .fontWeight(.heavy)
-//                .foregroundColor(Color.orange)
-//                .padding(.all)
-//            Spacer()
-//            Text(captions[currentPageIndex])
-//                .font(.body)
-//                .foregroundColor(.gray)
-//                .multilineTextAlignment(.center)
-//                .padding([.leading, .trailing])
-//                .padding(.bottom, 40.0)
-            Button(action: {
-                self.viewRouter.currentPage = "quizFinalView"
-            }, label: {
-                Text("Quiz Final")
-                    .foregroundColor(Color.purple)
-            })
         })
     }
 }

@@ -69,7 +69,7 @@ struct InitialScreenView: View {
                     .bold()
                     .padding(.top, 80)
                     .padding(.leading, -145)
-                Text("Tagline")
+                Text("Multiplying knowledge")
                     .font(.subheadline)
                     .foregroundColor(.gray)
                     .padding(.top, 145)
@@ -91,7 +91,7 @@ struct InitialScreenView: View {
                 .padding(.top, 60)
             }
             Button(action: {
-                self.viewRouter.currentPage = "tabBarView"
+                self.viewRouter.currentPage = "onboardingFinalView"
                 })
             {
                 ZStack {
