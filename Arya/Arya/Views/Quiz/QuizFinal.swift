@@ -90,33 +90,7 @@ struct QuizFinalView: View {
             })
             
             Spacer()
-            
-//            HStack(alignment: .center, spacing: nil, content: {
-//                Spacer()
-//                RoundedRectangle(cornerRadius: 25).foregroundColor(.purple)
-//                    .frame(width: 300, height: 70, alignment: .center)
-//                    .overlay(
-//                        Button(action:{
-//                            withAnimation {
-//                            }
-//                        }, label: {
-//                            Text("TABBAR")
-//                                .font(.headline)
-//                                .fontWeight(.bold)
-//                                .foregroundColor(Color.white)
-//                                .multilineTextAlignment(.center)
-//                        })
-//                    )
-//                Spacer()
-//            })
-//            .padding(.bottom, 30.0)
-                        
         })
-        .overlay(
-            Circle()
-                .frame(width: 15.0, height: 15.0)
-                .animation(.interpolatingSpring(stiffness: 50, damping: 1))
-        )
     }
 }
 
