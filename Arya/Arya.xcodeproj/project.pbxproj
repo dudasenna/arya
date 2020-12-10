@@ -27,6 +27,7 @@
 		0EC511EA2581572400361C9F /* WomenNowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC511E92581572400361C9F /* WomenNowView.swift */; };
 		0EC5C61F257E7BEE00FD5638 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC5C61E257E7BEE00FD5638 /* TabBarView.swift */; };
 		209DDEC5BCC3F3AD1B9BE436 /* Pods_AryaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E6B794D0916D91B53533909 /* Pods_AryaTests.framework */; };
+		2219997D25819E94006A60E7 /* PageControlQuiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2219997C25819E94006A60E7 /* PageControlQuiz.swift */; };
 		222CC18D257E75D500E0A725 /* InitialScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222CC18C257E75D500E0A725 /* InitialScreen.swift */; };
 		222CC192257E75EA00E0A725 /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222CC191257E75E900E0A725 /* Onboarding.swift */; };
 		222CC197257E760700E0A725 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222CC196257E760700E0A725 /* PageViewController.swift */; };
@@ -95,6 +96,7 @@
 		0EC5C61E257E7BEE00FD5638 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
 		1654DF7451EC02E8CA0B5E8F /* Pods-Arya.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Arya.debug.xcconfig"; path = "Target Support Files/Pods-Arya/Pods-Arya.debug.xcconfig"; sourceTree = "<group>"; };
 		1E6B794D0916D91B53533909 /* Pods_AryaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AryaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2219997C25819E94006A60E7 /* PageControlQuiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControlQuiz.swift; sourceTree = "<group>"; };
 		222CC18C257E75D500E0A725 /* InitialScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialScreen.swift; sourceTree = "<group>"; };
 		222CC191257E75E900E0A725 /* Onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
 		222CC196257E760700E0A725 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
@@ -233,6 +235,7 @@
 			children = (
 				22E9DDA3257E854300B17145 /* Quiz.swift */,
 				22E9DDAB257E857A00B17145 /* QuizFinal.swift */,
+				2219997C25819E94006A60E7 /* PageControlQuiz.swift */,
 			);
 			path = Quiz;
 			sourceTree = "<group>";
@@ -583,9 +586,9 @@
 				0E420CC8257AFCB900D2F60C /* ProfileHeaderView.swift in Sources */,
 				22FB55D9256E88DB001A59D0 /* ContentView.swift in Sources */,
 				0E420CD2257AFEFB00D2F60C /* ProfileView.swift in Sources */,
-				2C6CFF8D2579682E0046AF5C /* PresentationScreen.swift in Sources */,
 				22FB55D7256E88DB001A59D0 /* AryaApp.swift in Sources */,
 				0E877FCA257B0F2800638FEE /* LengthCardView.swift in Sources */,
+				2219997D25819E94006A60E7 /* PageControlQuiz.swift in Sources */,
 				22B7FDD02576E1F400329493 /* MotherView.swift in Sources */,
 				0E420CE4257B074700D2F60C /* CuriositiesView.swift in Sources */,
 				222CC1A1257E763800E0A725 /* OnboardingFinal.swift in Sources */,

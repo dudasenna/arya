@@ -46,15 +46,33 @@ struct QuizFinalView: View {
                                 .padding(.top)
                             Spacer()
                             HStack(alignment: .center, spacing: nil, content: {
-                                Image(systemName: "star.fill")
-                                    .foregroundColor(.orange)
-                                    .font(Font.system(.largeTitle))
-                                Image(systemName: "star.fill")
-                                    .foregroundColor(.orange)
-                                    .font(Font.system(.largeTitle))
-                                Image(systemName: "star")
-                                    .foregroundColor(.orange)
-                                    .font(Font.system(.largeTitle))
+                                if (stars > 0) {
+                                    Image(systemName: "star.fill")
+                                        .foregroundColor(.orange)
+                                        .font(Font.system(.largeTitle))
+                                } else {
+                                    Image(systemName: "star")
+                                        .foregroundColor(.orange)
+                                        .font(Font.system(.largeTitle))
+                                }
+                                if (stars > 1) {
+                                    Image(systemName: "star.fill")
+                                        .foregroundColor(.orange)
+                                        .font(Font.system(.largeTitle))
+                                } else {
+                                    Image(systemName: "star")
+                                        .foregroundColor(.orange)
+                                        .font(Font.system(.largeTitle))
+                                }
+                                if (stars > 2) {
+                                    Image(systemName: "star.fill")
+                                        .foregroundColor(.orange)
+                                        .font(Font.system(.largeTitle))
+                                } else {
+                                    Image(systemName: "star")
+                                        .foregroundColor(.orange)
+                                        .font(Font.system(.largeTitle))
+                                }
                             })
                             Spacer()
                             Text("Volte amanhã para mais perguntas")
@@ -77,6 +95,7 @@ struct QuizFinalView: View {
                         Button(action:{
                             withAnimation {
                                 self.viewRouter.currentPage = "tabBarView"
+                                stars = 0
                             }
                         }, label: {
                             Text("Concluir")
@@ -90,33 +109,7 @@ struct QuizFinalView: View {
             })
             
             Spacer()
-            
-//            HStack(alignment: .center, spacing: nil, content: {
-//                Spacer()
-//                RoundedRectangle(cornerRadius: 25).foregroundColor(.purple)
-//                    .frame(width: 300, height: 70, alignment: .center)
-//                    .overlay(
-//                        Button(action:{
-//                            withAnimation {
-//                            }
-//                        }, label: {
-//                            Text("TABBAR")
-//                                .font(.headline)
-//                                .fontWeight(.bold)
-//                                .foregroundColor(Color.white)
-//                                .multilineTextAlignment(.center)
-//                        })
-//                    )
-//                Spacer()
-//            })
-//            .padding(.bottom, 30.0)
-                        
         })
-        .overlay(
-            Circle()
-                .frame(width: 15.0, height: 15.0)
-                .animation(.interpolatingSpring(stiffness: 50, damping: 1))
-        )
     }
 }
 

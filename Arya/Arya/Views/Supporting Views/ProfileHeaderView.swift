@@ -39,7 +39,7 @@ struct ProfileHeaderView: View {
                     .clipShape(Circle())
                     .clipped()
                 Label(
-                    title: { Text("UserName").font(.title).fontWeight(.heavy)
+                    title: { Text("\(namePassar)").font(.title).fontWeight(.heavy)
                     },
                     icon: {}
                 ).padding(.top, 15)

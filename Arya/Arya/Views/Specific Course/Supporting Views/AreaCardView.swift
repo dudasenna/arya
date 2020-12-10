@@ -35,7 +35,7 @@ struct AreaCardView: View {
             HStack {
                 // MARK: Title
                 Label(
-                    title: { Text("Nome da área")
+                    title: { Text("Banco de Dados")
                         .font(.title2)
                         .fontWeight(.heavy)
                         .foregroundColor(.orange)
@@ -50,7 +50,7 @@ struct AreaCardView: View {
             
             // Remember to replace the example text to var
             Label(
-                title: { Text("Texto falando mais sobre a área específica")
+                title: { Text("Desenvolver programas de computador que organizam, classificam e indexam informações ")
                     .font(.body)
                     .fontWeight(.medium)
                     .foregroundColor(Color(.darkGray))

@@ -19,7 +19,7 @@ struct CourseView: View {
                         
                         // MARK: Communities
                         NavigationLink(
-                            destination: CuriositiesView()) {
+                            destination: CommunitiesView()) {
                             Text("Comunidades")
                                 .font(.body)
                                 .fontWeight(.bold)

@@ -25,7 +25,7 @@ struct CurriculumCardView: View {
             
             // MARK: Curriculum content
             HStack {
-                Text("Descrição sobre o perfil curricular do curso")
+                Text("No primeiro período você encontrará matérias como Cálculo Diferencial e Integral 1, Álgebra Vetorial Linear para Computação, Introdução à Computação")
                     .font(.body)
                     .fontWeight(.medium)
                     .foregroundColor(Color(.darkGray))
