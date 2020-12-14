@@ -43,13 +43,15 @@
 	<dict>
 		<key>UIColorName</key>
 		<string>bg</string>
-		<key>UIImageName</key>
-		<string>arya80</string>
 	</dict>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>
 	</array>
+	<key>UIUserInterfaceStyle</key>
+	<string>Light</string>
+	<key>LSApplicationCategoryType</key>
+	<string></string>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
