@@ -11,6 +11,8 @@ struct CourseView: View {
     
     @EnvironmentObject var viewRouter: ViewRouter
     
+    @State private var showHelp = false
+    
     var body: some View {
         VStack(alignment: .center, spacing: nil) {
             // MARK: ScrollView
@@ -131,14 +133,19 @@ struct CourseView: View {
         }
         .navigationBarItems(trailing:
                                 Button(action:{
-                                    withAnimation {
-                                        self.viewRouter.currentPage = "onboardingFinalView"
-                                    }
+                                        self.showHelp = true
                                 }, label: {
                                     Image(systemName: "questionmark.circle")
                                         .font(.title)
                                         .foregroundColor(Color.purple)
-                                })
+                                }).alert(isPresented: $showHelp) {
+                                    Alert(
+                                        title:
+                                            Text("Desculpe"),
+                                        message: Text("Ainda estamos implementando essa funcionalidade."),
+                                        dismissButton: .default(Text("OK"))
+                                    )
+                                }
                                 .padding(.trailing, 5.0)
         )
     }
