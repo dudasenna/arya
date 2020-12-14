@@ -12,7 +12,7 @@ struct HomeScreen: View {
         VStack(alignment: .leading, spacing: nil, content: {
             HStack(alignment: .center, spacing: nil, content: {
                 VStack(alignment: .leading, spacing: nil, content: {
-                    Text("Olá, \(namePassar)")
+                    Text("Olá, \(namePassar!)")
                         .font(.title)
                         .foregroundColor(.purple
                         )

@@ -14,7 +14,7 @@ struct ProfileHeaderView: View {
                 Circle()
                     .frame(width: 120, height: 120, alignment: .center)
                     .foregroundColor(.white)
-                    .shadow(color: Color(.white), radius: 10).opacity(0.4)
+                    .shadow(color: Color(.black), radius: 10).opacity(0.4)
                 
             }.padding(.bottom, 25)
             //
@@ -27,7 +27,7 @@ struct ProfileHeaderView: View {
                     .clipShape(Circle())
                     .clipped()
                 Label(
-                    title: { Text("\(namePassar)").font(.title).fontWeight(.heavy)
+                    title: { Text("\(namePassar!)").font(.title).fontWeight(.heavy)
                     },
                     icon: {}
                 ).padding(.top, 20)
