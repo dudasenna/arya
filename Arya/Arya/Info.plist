@@ -41,6 +41,8 @@
 	<true/>
 	<key>UILaunchScreen</key>
 	<dict>
+		<key>UIImageName</key>
+		<string>arya80icon</string>
 		<key>UIColorName</key>
 		<string>bg</string>
 	</dict>
