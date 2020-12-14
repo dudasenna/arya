@@ -8,6 +8,7 @@
 import SwiftUI
 import UIKit
 
+// MARK: NavBar Color
 struct NavigationBarColor: ViewModifier {
 
   init(backgroundColor: UIColor, tintColor: UIColor) {
@@ -29,9 +30,23 @@ struct NavigationBarColor: ViewModifier {
   }
 }
 
+// MARK: NavBar is Hidden
 extension View {
   func navigationBarColor(backgroundColor: UIColor, tintColor: UIColor) -> some View {
     self.modifier(NavigationBarColor(backgroundColor: backgroundColor, tintColor: tintColor))
   }
 }
 
+struct HiddenNavigationBar: ViewModifier {
+    func body(content: Content) -> some View {
+        content
+        .navigationBarTitle("", displayMode: .inline)
+        .navigationBarHidden(true)
+    }
+}
+
+extension View {
+    func hiddenNavigationBarStyle() -> some View {
+        modifier( HiddenNavigationBar() )
+    }
+}
