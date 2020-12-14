@@ -7,15 +7,20 @@
 
 import SwiftUI
 
-var namePassar: String = "Maria"
+var namePassar = UserDefaults.standard.string(forKey: "userName")
 
 struct OnboardingFinalView: View {
 
-    @State var name: String = ""
+    @State private var name: String
     
     @EnvironmentObject var viewRouter: ViewRouter
     
     @State var currentPageIndex = 0
+    
+    init() {
+            let name = UserDefaults.standard.string(forKey: "userName") ?? ""
+            self._name = State(initialValue: name)
+        }
 
     var body: some View {
         VStack(alignment: .center) {
@@ -48,16 +53,17 @@ struct OnboardingFinalView: View {
                 .padding(.leading)
                 .frame(width: 300, height: 50, alignment: .center)
                 .overlay(
-                    RoundedRectangle(cornerRadius: /*@START_MENU_TOKEN@*/25.0/*@END_MENU_TOKEN@*/)
+                    RoundedRectangle(cornerRadius: 25.0)
                         .stroke(Color.purple, lineWidth: 2)
-                        .frame(width: 300, height: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                        .frame(width: 300, height: 50, alignment: .center)
                 )
             Spacer()
             
             RoundedRectangle(cornerRadius: 25).foregroundColor(.orange)
                 .frame(width: 240, height: 50, alignment: .center)
                 .overlay(
-                    Button(action:{
+                    Button(action: {
+                        UserDefaults.standard.setValue(self.name, forKey: "userName")
                         withAnimation {
                             namePassar = name
                             self.viewRouter.currentPage = "tabBarView"
