@@ -39,6 +39,7 @@ struct HomeScreen: View {
                         .frame(width: 130.0, height: 130.0)
                         .background(Color.purple)
                         .cornerRadius(100)
+                        .shadow(color: .purple, radius: 4)
                 }
                 .offset(x: 153, y: 158)
                 NavigationLink(
@@ -51,6 +52,7 @@ struct HomeScreen: View {
                         .frame(width: 130.0, height: 130.0)
                         .background(Color.purple)
                         .cornerRadius(100)
+                        .shadow(color: .purple, radius: 4)
                 }
                 .offset(x: -7, y: -110)
                 
@@ -64,6 +66,7 @@ struct HomeScreen: View {
                         .frame(width: 100.0, height: 100.0)
                         .background(Color.purple)
                         .cornerRadius(100)
+                        .shadow(color: .purple, radius: 4)
                 }
                 .offset(x: 59, y: 38)
                 NavigationLink(
@@ -76,6 +79,7 @@ struct HomeScreen: View {
                         .frame(width: 90.0, height: 90.0)
                         .background(Color.purple)
                         .cornerRadius(100)
+                        .shadow(color: .purple, radius: 4)
                 }
                 .offset(x: 273, y: -410)
                 
@@ -89,32 +93,33 @@ struct HomeScreen: View {
                         .frame(width: 120.0, height: 120.0)
                         .background(Color.purple)
                         .cornerRadius(100)
+                        .shadow(color: .purple, radius: 5)
                 }
                 .offset(x: 275, y: -160)
                 
                 Circle()
                     .fill(Color.purple)
-                    .shadow(radius: 4)
+                    .shadow(color: .purple, radius: 4)
                     .frame(width: 125, height: 125)
                     .offset(x: -75, y: -220)
                 Circle()
                     .fill(Color.purple)
-                    .shadow(radius: 4)
+                    .shadow(color: .purple, radius: 4)
                     .frame(width: 25, height: 25)
                     .offset(x: 125, y: -290)
                 Circle()
                     .fill(Color.purple)
-                    .shadow(radius: 4)
+                    .shadow(color: .purple, radius: 4)
                     .frame(width: 25, height: 25)
                     .offset(x: -36, y: -580)
                 Circle()
                     .fill(Color.purple)
-                    .shadow(radius: 4)
+                    .shadow(color: .purple, radius: 4)
                     .frame(width: 25, height: 25)
                     .offset(x: 285, y: -690)
                 Circle()
                     .fill(Color.purple)
-                    .shadow(radius: 4)
+                    .shadow(color: .purple, radius: 4)
                     .frame(width: 25, height: 25)
                     .offset(x: 90, y: -910)
             })
