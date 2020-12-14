@@ -16,7 +16,9 @@ struct QuizView: View {
     @State var currentPageIndex = 0
     
     @State private var scaleValue = CGFloat(1)
-
+    
+    @State private var showHelp = false
+    
     var questions = ["Quem foi responsável pela criação do primeiro algoritmo na história?", "Pergunta 2", "Pergunta 3"]
     
     var answer1 =  ["Karen Sparck Jones", "Ada Lovelace", "Grace Hopper"]
@@ -24,7 +26,7 @@ struct QuizView: View {
     var answer2 =  ["resposta2", "resposta2", "resposta2"]
     
     var answer3 =  ["resposta3", "resposta3", "resposta3"]
-
+    
     var body: some View {
         VStack(alignment: .center, spacing: nil, content: {
             ZStack(alignment: Alignment(horizontal: .center, vertical: .top), content: {
@@ -34,17 +36,23 @@ struct QuizView: View {
                     .ignoresSafeArea()
                 VStack(alignment: .center, spacing: nil, content: {
                     HStack(alignment: .center, spacing: nil, content: {
-                        Button (action: {}, label: {
+                        
+                        Spacer()
+                        Button (action: {
+                            self.showHelp = true
+                        }, label: {
                             Image(systemName: "questionmark.circle").foregroundColor(.white)
                                 .padding(.leading, 5.0)
                                 .font(Font.system(.title))
                         })
-                        Spacer()
-                        Button (action: {}, label: {
-                            Image(systemName: "xmark").foregroundColor(.white)
-                                .padding(.leading, 5.0)
-                                .font(Font.system(.title))
-                        })
+                        .alert(isPresented: $showHelp) {
+                            Alert(
+                                title:
+                                    Text("Desculpe"),
+                                message: Text("Ainda estamos implementando essa funcionalidade."),
+                                dismissButton: .default(Text("OK"))
+                            )
+                        }
                     })
                     .padding(.vertical, 15.0)
                     .padding(.horizontal)
