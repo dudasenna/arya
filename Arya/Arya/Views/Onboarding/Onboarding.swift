@@ -1,13 +1,9 @@
 //
-//  OnboardingView.swift
-//  App Onboarding
+//  PresentationScreen.swift
+//  Arya
 //
-//  Created by Andreas Schultz on 10.08.19.
-//  Copyright © 2019 Andreas Schultz. All rights reserved.
+//  Created by Hugo Santos on 14/12/20.
 //
-
-//Create your Onboarding view, tutorial can be found at:
-//https://blckbirds.com/post/how-to-create-a-onboarding-screen-in-swiftui-1/
 
 import SwiftUI
 
@@ -20,15 +16,14 @@ struct OnboardingView: View {
 //    ]
     
     var titles = ["Descubra", "Ciência também é coisa de menina", "Venha somar"]
-    
+    var images = ["onboarding-makingart",  "onboarding-loving" ,"onboarding-sharepizza"]
     var captions =  ["Desvende os cursos da área de exatas, conheça mais sobre as áreas de atuação e curiosidades de cada curso.",
                      "Conheça a história de mulheres que fizeram e fazem a diferença em cada curso, além das comunidades femininas atuais.",
                      "Você sabia que apenas 30% de todas as estudates escolhem campos relacionados a STEM na educação superior?\n\nVenha mudar essa estatística conosco!"]
     
     @EnvironmentObject var viewRouter: ViewRouter
-    
+    @State var slideGesture: CGSize = CGSize.zero
     @State var currentPageIndex = 0
-    
     var body: some View {
         VStack(alignment: .leading) {
             HStack(alignment: .center) {
@@ -54,16 +49,43 @@ struct OnboardingView: View {
                         .foregroundColor(Color.purple)
                 })
                 .padding(.trailing, 5.0)
+                
+//                .animation(.spring())
+//                .gesture(DragGesture().onChanged{ value in
+//                    self.slideGesture = value.translation
+//                }
+//                .onEnded{ value in
+//                    if self.slideGesture.width < -50 {
+//                        if self.currentPageIndex <  -1 {
+//                            withAnimation {
+//                                self.currentPageIndex += 1
+//                            }
+//                        }
+//                    }
+//                    if self.slideGesture.width > 50 {
+//                        if self.currentPageIndex > 0 {
+//                            withAnimation {
+//                                self.currentPageIndex -= 1
+//                            }
+//                        }
+//                    }
+//                    self.slideGesture = .zero
+//                })
             }
             .padding(.all)
-            
             Group {
                 Text(titles[currentPageIndex])
                     .font(.largeTitle)
                     .fontWeight(.heavy)
                     .foregroundColor(Color.orange)
                     .padding(.all)
-                Spacer()
+                //Spacer()
+                Image(images[currentPageIndex])
+                    .resizable()
+                    .scaledToFit()
+                    .padding(.bottom, 50)
+                    .padding(.horizontal, 55)
+    
                 Text(captions[currentPageIndex])
                     .font(.body)
                     .foregroundColor(.gray)
