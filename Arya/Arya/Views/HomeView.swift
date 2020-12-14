@@ -12,6 +12,7 @@ struct HomeView: View {
     var body: some View {
         NavigationView {
             HomeScreen()
+                .hiddenNavigationBarStyle()
         }.navigationBarColor(backgroundColor: .white, tintColor: .orange)
     }
 }
