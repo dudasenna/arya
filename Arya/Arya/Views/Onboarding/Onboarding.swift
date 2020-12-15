@@ -28,7 +28,6 @@ struct OnboardingView: View {
     @EnvironmentObject var viewRouter: ViewRouter
     
     @State var currentPageIndex = 0
-    
     var body: some View {
         VStack(alignment: .leading) {
             HStack(alignment: .center) {
@@ -103,6 +102,21 @@ struct OnboardingView: View {
                 .padding()
         }
     }
+    
+    func handleSwipe(sender: UISwipeGestureRecognizer) {
+
+         if sender.direction == .right { // user swiped right
+              // push view controller (push new view on the navigation stack)
+//              self.navigationController?.pushViewController(OnboardingView(), animated: true)
+            self.currentPageIndex += 1
+
+         } else { // user swiped left
+              // pop view controller (go back one view on the navigation stack)
+//              self.navigationController?.popViewController(animated: true)
+            self.currentPageIndex -= 1
+
+         }
+    }
 }
 
 struct ButtonContent: View {
@@ -116,6 +130,26 @@ struct ButtonContent: View {
             .cornerRadius(30)
     }
 }
+
+//let rightSwipe : UISwipeGestureRecognizer = UISwipeGestureRecognizer(target: self, action: #selector(handleSwipe(sender:)))
+//rightSwipe.direction = .right
+//
+//   let leftSwipe : UISwipeGestureRecognizer = UISwipeGestureRecognizer(target: self, action: #selector(handleSwipe(sender:)))
+//leftSwipe.direction = .left
+//
+//
+//func handleSwipe(sender: UISwipeGestureRecognizer) {
+//
+//     if sender.direction == .right { // user swiped right
+//          // push view controller (push new view on the navigation stack)
+//          self.navigationController?.pushViewController(viewController(), animated: true)
+//
+//     } else { // user swiped left
+//          // pop view controller (go back one view on the navigation stack)
+//          self.navigationController?.popViewController(animated: true)
+//
+//     }
+//}
 
 #if DEBUG
 struct OnboardingView_Previews: PreviewProvider {

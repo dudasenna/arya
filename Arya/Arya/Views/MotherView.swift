@@ -18,7 +18,7 @@ struct MotherView : View {
             } else if viewRouter.currentPage == "initialScreenView" {
                 InitialScreenView()
             } else if viewRouter.currentPage == "onboardingView" {
-                OnboardingView()
+                ContentView()
             } else if viewRouter.currentPage == "onboardingFinalView" {
                 OnboardingFinalView()
             } else if viewRouter.currentPage == "quizView" {
