@@ -29,9 +29,6 @@
 		209DDEC5BCC3F3AD1B9BE436 /* Pods_AryaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E6B794D0916D91B53533909 /* Pods_AryaTests.framework */; };
 		2219997D25819E94006A60E7 /* PageControlQuiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2219997C25819E94006A60E7 /* PageControlQuiz.swift */; };
 		222CC18D257E75D500E0A725 /* InitialScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222CC18C257E75D500E0A725 /* InitialScreen.swift */; };
-		222CC192257E75EA00E0A725 /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222CC191257E75E900E0A725 /* Onboarding.swift */; };
-		222CC197257E760700E0A725 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222CC196257E760700E0A725 /* PageViewController.swift */; };
-		222CC19C257E762100E0A725 /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222CC19B257E762100E0A725 /* PageControl.swift */; };
 		222CC1A1257E763800E0A725 /* OnboardingFinal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222CC1A0257E763800E0A725 /* OnboardingFinal.swift */; };
 		2232104A2581641F0092B8E7 /* CommunitiesCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223210492581641F0092B8E7 /* CommunitiesCardView.swift */; };
 		2232104F2581649F0092B8E7 /* CommunitiesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2232104E2581649F0092B8E7 /* CommunitiesView.swift */; };
@@ -100,9 +97,6 @@
 		1E6B794D0916D91B53533909 /* Pods_AryaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AryaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2219997C25819E94006A60E7 /* PageControlQuiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControlQuiz.swift; sourceTree = "<group>"; };
 		222CC18C257E75D500E0A725 /* InitialScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialScreen.swift; sourceTree = "<group>"; };
-		222CC191257E75E900E0A725 /* Onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
-		222CC196257E760700E0A725 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
-		222CC19B257E762100E0A725 /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
 		222CC1A0257E763800E0A725 /* OnboardingFinal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingFinal.swift; sourceTree = "<group>"; };
 		223210492581641F0092B8E7 /* CommunitiesCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunitiesCardView.swift; sourceTree = "<group>"; };
 		2232104E2581649F0092B8E7 /* CommunitiesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunitiesView.swift; sourceTree = "<group>"; };
@@ -219,10 +213,7 @@
 			isa = PBXGroup;
 			children = (
 				222CC18C257E75D500E0A725 /* InitialScreen.swift */,
-				222CC191257E75E900E0A725 /* Onboarding.swift */,
 				222CC1A0257E763800E0A725 /* OnboardingFinal.swift */,
-				222CC196257E760700E0A725 /* PageViewController.swift */,
-				222CC19B257E762100E0A725 /* PageControl.swift */,
 				225E28EC25880001009E5215 /* OnboardingStepView.swift */,
 				225E28F125880220009E5215 /* OnboardingViewPure.swift */,
 			);
@@ -572,7 +563,6 @@
 			files = (
 				222CC18D257E75D500E0A725 /* InitialScreen.swift in Sources */,
 				22D2C6612576E52000F46CD1 /* AppDelegate.swift in Sources */,
-				222CC19C257E762100E0A725 /* PageControl.swift in Sources */,
 				0E877FC5257B0F0000638FEE /* DescriptionView.swift in Sources */,
 				0EC5C61F257E7BEE00FD5638 /* TabBarView.swift in Sources */,
 				0EC511E52581571300361C9F /* WomenPastView.swift in Sources */,
@@ -604,8 +594,6 @@
 				0E877FE1257B16FE00638FEE /* AreaCardView.swift in Sources */,
 				0EC511E02581551C00361C9F /* WomenCardView.swift in Sources */,
 				0E877FD4257B110E00638FEE /* AboutCourseView.swift in Sources */,
-				222CC192257E75EA00E0A725 /* Onboarding.swift in Sources */,
-				222CC197257E760700E0A725 /* PageViewController.swift in Sources */,
 				0E420CDF257B070D00D2F60C /* CuriosityCardView.swift in Sources */,
 				22E9DDAC257E857A00B17145 /* QuizFinal.swift in Sources */,
 				225E28ED25880001009E5215 /* OnboardingStepView.swift in Sources */,
